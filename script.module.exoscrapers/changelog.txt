@@ -1,5 +1,5 @@
 ExoScrapers Module Changelog:
-2.1.6
+2.1.7
 - Updated torrent scrapers, fixed meta info and much more! (Ty 123Venom!)
 - Updated client and source_utils
 - Code reformat and optimize

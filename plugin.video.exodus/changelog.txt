@@ -1,3 +1,3 @@
 Exodus Changelog:
-8.3.7
+8.3.8
 - Scraper updates

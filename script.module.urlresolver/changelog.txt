@@ -1,3 +1,51 @@
+[B]Version 5.0.50 (January 17, 2020)[/B]
+- Code Base Changes:
+    - added dependency
+- Resolvers Added:
+    - none
+- Resolvers Fixed/Updated:
+    - none
+- Resolvers Removed
+    - none
+- Languages Added/Updated
+    - none
+
+[B]Version 5.0.49 (January 14, 2020)[/B]
+- Code Base Changes:
+    - none
+- Resolvers Added:
+    - none
+- Resolvers Fixed/Updated:
+    - fembed
+    - gounlimited
+    - prostream
+    - supervideo
+    - upstream
+- Resolvers Removed
+    - blazefile
+    - movierulz
+    - videomega
+- Languages Added/Updated
+    - none
+
+[B]Version 5.0.48 (January 2, 2020)[/B]
+- Code Base Changes:
+    - none
+- Resolvers Added:
+    - brighteon
+    - prostream
+    - supervideo
+    - truhd
+    - upstream
+- Resolvers Fixed/Updated:
+    - fembed
+    - mixdrop
+- Resolvers Removed
+    - streamcloud
+    - streamcloudco
+- Languages Added/Updated
+    - none
+
 [B]Version 5.0.47 (December 18, 2019)[/B]
 - Code Base Changes:
     - removed dependency
