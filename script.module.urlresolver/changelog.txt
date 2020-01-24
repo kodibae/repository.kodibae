@@ -1,10 +1,12 @@
-[B]Version 5.0.50 (January 17, 2020)[/B]
+[B]Version 5.0.51 (January 23, 2020)[/B]
 - Code Base Changes:
-    - added dependency
+    - none
 - Resolvers Added:
-    - none
+    - liveleak
 - Resolvers Fixed/Updated:
-    - none
+    - hxload
+    - mixdrop
+    - mp4upload
 - Resolvers Removed
     - none
 - Languages Added/Updated

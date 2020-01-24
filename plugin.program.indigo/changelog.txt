@@ -1,0 +1,93 @@
+V4.0.15
+- Version Bump to Fix Disabling
+
+V4.0.14 
+- Kodi 18 Python-2/3 cross compatibility
+- Code Cleanup for Backup/Restore
+- Auto-Hide Addon Installer sections when API is down
+
+V4.0.13
+- Temporary removal of broken sections
+
+V4.0.12
+- Fixed compatibility issues
+
+V4.0.11
+- Fixed for issue with kodi 18 armV7 on first run/clean install
+
+V4.0.10
+- Fixed Sports Listing guide due to a site change
+- Changed Kodi version reporting in System Info to reflect test versions of Kodi
+
+V4.0.9
+- Fixes for Notification and Installer, Git Browser called to open directly after install
+- Moved all UrlOpen calls to Kodi.py - Read_page function
+- Fixed Sports listing guide
+- Fixes to Rejuvinate, Wipe Addons, and other little things
+- Code cleanup and compression
+- Prepare code for cross compatability with Python-2.7 and Python-3
+
+V4.0.8
+- Fixes for SSL error opening some web pages
+- Fixes for Auto Maintenance on platforms which don't report proper disk sizes
+
+V4.0.7
+- Fixed Addon Installer
+
+V4.0.6
+- Improved error control for issues with some devices and reporting disk sizes
+
+V4.0.5
+- Added No-Coin Crypto-Mining detection
+- Improved Log Viewer to support No-Coin reporting
+- Improvements to service.py and kodi.py for better Error Handling
+- Code Cleanup to prepare for Python 3.x
+
+V4.0.4.2
+- Improved Dependency Error Handling
+- Changed Address to Resolvers Repo
+
+V4.0.4.1
+- Reimplemented internal Requests to fix iOS Crash
+
+V4.0.4
+- Notification Improvements
+- Log Viewer improvements
+- Added Requests addon as dependancy
+- Removed Included Requests Files
+
+V4.0.3
+- Service Improvements
+- Fixed Inaccurate Disk Space Reporting
+
+V4.0.2
+- Fixed Jarvis Git Browser Installation
+
+V4.0.1
+- Standalone Git Browser
+
+V4.0.0
+- GitHub Browser
+
+V3.0.0
+-Code Cleanup
+- Addod Install from Online Source
+- New TVADDONS.CO Source
+
+V2.0.0
+Natively Install Dependencies
+Timeouts for bad servers
+More Dialog to inform user of status
+Code Cleanup
+
+V 1.0.4
+Echo Additions
+
+V 1.0.3
+Code and art optimization (Twilight)
+
+V1.0.2
+Fixed broken Next Page function in installer
+
+V1.0.0
+Initial Official Release
