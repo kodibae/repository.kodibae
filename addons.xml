@@ -281,7 +281,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="script.module.exoscrapers" name="ExoScrapers Module" version="2.1.8" provider-name="Exodus">
+<addon id="script.module.exoscrapers" name="ExoScrapers Module" version="2.1.9" provider-name="Exodus">
     <requires>
         <import addon="xbmc.python" version="2.25.0" />
         <import addon="script.module.beautifulsoup4"/>
@@ -301,7 +301,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <icon>icon.png</icon>
         <fanart></fanart>
     </assets>
-    <news>v2.1.5 - Updated torrent scrapers, fixed meta info and much more! (Ty 123Venom!), Updated client and source_utils, Code reformat and optimize</news>
+    <news>v2.1.9 - scrapers and log_utils fix, torrent updates, scraper fixes</news>
     </extension>
 </addon>
 
@@ -458,7 +458,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="plugin.video.seren" version="1.6.7" name="Seren" provider-name="Nixgates">
+<addon id="plugin.video.seren" version="1.6.9" name="Seren" provider-name="Nixgates">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0" />
 		<import addon="script.module.requests" version="2.19.1" />
@@ -504,6 +504,25 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
 		<news>
+
+Changelog 1.6.9:
+Fixed AllDebrid Cache check mistake during py3 compatibility changes
+
+Changelog 1.6.8:
+Tighten and speed up PM cloud file inspection
+Multiple fixes to TMDb module
+buildSimpleTorrentInfo now more safe for shows that lack information
+Added compatibility for Trakt usernames with non ASCII characters
+Created new regex method for identifying files inside a pack
+Premiumize resolver now uses regex method
+Real Debrid resolver now uses regex method
+Reworked RD cache check method to use new new methods created
+Cleaned up Real Debrid resolver method
+Cleaned up Premiumize resolver method
+Genre lists now use the trending endpoint to provide more current/relevant titles
+Fix possible double resolving of source in source select if not using auto-try next source
+Fixed Play from random point not clearing playing items from playlist
+
 Changelog 1.6.7:
 Fix season sort due to stringed season number from TMDb module
 
@@ -751,7 +770,7 @@ Added Trakt Manager
 	</extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="8.4.0" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="8.4.1" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.exodus" />
