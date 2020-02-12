@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.module.exoscrapers" name="ExoScrapers Module" version="2.2.0" provider-name="Exodus">
+<addon id="script.module.exoscrapers" name="ExoScrapers Module" version="2.2.1" provider-name="Exodus">
     <requires>
         <import addon="xbmc.python" version="2.25.0" />
         <import addon="script.module.beautifulsoup4"/>
@@ -19,6 +19,6 @@
         <icon>icon.png</icon>
         <fanart></fanart>
     </assets>
-    <news>v2.2.0 - scrapers and log_utils fix, torrent updates, scraper fixes</news>
+    <news>v2.2.1 - scrapers and log_utils fix, torrent updates, scraper fixes</news>
     </extension>
 </addon>
