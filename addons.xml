@@ -770,7 +770,7 @@ Added Trakt Manager
 	</extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="8.4.4" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="8.4.5" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.exodus" />
