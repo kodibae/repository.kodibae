@@ -1,5 +1,5 @@
 ExoScrapers Module Changelog:
-2.2.1
+2.2.2
 - scrapers and log_utils fix
 - torrent updates
 - scraper fixes

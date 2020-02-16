@@ -1,13 +1,13 @@
-[B]Recently Updated:[/B] February 14, 2020
+[B]Recently Updated:[/B] February 17, 2020
 
-If you want to [B]improve your Exodus[/B] on Kodi,
-the solution is simple: [B]you need a VPN[/B].
+I just pushed some [B]performance updates[/B] to
+make stream scrapers run much faster.
 
-With a VPN, you'll [B]gain access[/B] to hundreds
-of otherwise [B]unavailable streaming sites[/B].
+To [B]improve[/B] streaming, I'd encourage you to
+[B]get VPN[/B] service through my link below.
 
-Signup through the link below and you'll
-be supporting Exodus development too! A way
-to say thank you for my HOURS of coding.
+VPN will give Kodi the power to [B]access
+blocked[/B] links from servers around the world.
+And [B]hide your IP[/B] address, and more!
 
-#1 VPN: [B]https://www.exodusvpn.com[/B]
+TOP VPN: [B]https://www.exodusvpn.com[/B]
