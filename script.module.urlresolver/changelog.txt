@@ -1,3 +1,16 @@
+[B]Version 5.0.54 (February 21, 2020)[/B]
+- Code Base Changes:
+    - none
+- Resolvers Added:
+    - none
+- Resolvers Fixed/Updated:
+    - gounlimited
+    - myviru
+- Resolvers Removed
+    - thevideo_me
+- Languages Added/Updated
+    - none
+
 [B]Version 5.0.53 (February 11, 2020)[/B]
 - Code Base Changes:
     - none

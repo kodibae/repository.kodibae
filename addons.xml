@@ -437,7 +437,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.37" provider-name="jsergio">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.38" provider-name="jsergio">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="plugin.video.youtube" optional="true" />
@@ -770,7 +770,7 @@ Added Trakt Manager
 	</extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="8.4.6" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="8.4.7" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.exodus" />
@@ -971,14 +971,13 @@ v5.2.14 (2017-01-23)
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="5.0.53" provider-name="tvaddons">
+<addon id="script.module.urlresolver" name="URLResolver" version="5.0.54" provider-name="tvaddons">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="plugin.video.youtube" optional="true" />
         <import addon="script.module.python.twitch" optional="true" />
         <import addon="script.module.cryptopy" version="1.2.6" optional="true" />
         <import addon="plugin.video.gdrive" optional="true" />
-        <import addon="plugin.program.indigo" />
     </requires>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.python.pluginsource" library="lib/default.py" />
