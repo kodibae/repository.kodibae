@@ -1,3 +1,15 @@
+[B]Version 5.0.55 (February 27, 2020)[/B]
+- Code Base Changes:
+    - get_dom fix
+- Resolvers Added:
+    - none
+- Resolvers Fixed/Updated:
+    - videa.hu
+- Resolvers Removed
+    - none
+- Languages Added/Updated
+    - none
+
 [B]Version 5.0.54 (February 21, 2020)[/B]
 - Code Base Changes:
     - none
