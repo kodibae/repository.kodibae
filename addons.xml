@@ -390,7 +390,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
-		<summary lang="en">Exodus</summary>
+		<summary lang="en">Exodus oshanrube</summary>
 	</extension>
 </addon>
 
