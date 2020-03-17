@@ -30,7 +30,7 @@ import urllib
 import xmlrpclib
 
 import xbmc
-from resources.lib.modules import cleantitle, control, playcount
+from resources.lib.modules import cleantitle, control, playcount, log_utils
 
 try:
     from sqlite3 import dbapi2 as database
@@ -45,7 +45,7 @@ class player(xbmc.Player):
         xbmc.Player.__init__(self)
 
     def run(self, title, year, season, episode, imdb, tvdb, url, meta):
-
+        log_utils.log('oshanrube playing', log_utils.LOGERROR)
         try:
             control.sleep(200)
 
@@ -87,8 +87,10 @@ class player(xbmc.Player):
             self.keepPlaybackAlive()
 
             control.window.clearProperty('script.trakt.ids')
+            return True
         except Exception:
-            return
+            log_utils.log('oshanrube play failed', log_utils.LOGERROR)
+            return False
 
     def getMeta(self, meta):
         try:
@@ -201,10 +203,16 @@ class player(xbmc.Player):
         else:
             overlay = '6'
 
-        for i in range(0, 240):
+        for i in range(0, 100):
             if self.isPlayingVideo():
                 break
-            xbmc.sleep(1000)
+            xbmc.sleep(100)
+
+        if self.isPlayingVideo():
+            log_utils.log('oshanrube player:183 keep alive', log_utils.LOGERROR)
+        else:
+            raise Exception()
+
 
         if overlay == '7':
 

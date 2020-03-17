@@ -52,16 +52,24 @@ class sources:
     def __init__(self):
         self.getConstants()
         self.sources = []
+        self.played = []
+        self.items = None
 
     def play(self, title, year, imdb, tvdb, season, episode, tvshowtitle, premiered, meta, select):
         try:
 
             url = None
 
-            items = self.getSources(title, year, imdb, tvdb, season, episode, tvshowtitle, premiered)
+            if self.items == None:
+                log_utils.log('oshanrube scanning items from cache', log_utils.LOGERROR)
+                items = self.getSources(title, year, imdb, tvdb, season, episode, tvshowtitle, premiered)
+                self.items = list(items)
+            else:
+                log_utils.log('oshanrube loading items from cache', log_utils.LOGERROR)
+                items = list(self.items)
+
             select = control.setting('hosts.mode') if select is None else select
             title = tvshowtitle if not tvshowtitle is None else title
-
             if control.window.getProperty('PseudoTVRunning') == 'True':
                 return control.resolve(int(sys.argv[1]), True, control.item(path=str(self.sourcesDirect(items))))
 
@@ -95,7 +103,9 @@ class sources:
                 pass
 
             from resources.lib.modules.player import player
-            player().run(title, year, season, episode, imdb, tvdb, url, meta)
+            played = player().run(title, year, season, episode, imdb, tvdb, url, meta)
+            if played == False:
+                self.play(title, year, imdb, tvdb, season, episode, tvshowtitle, premiered, meta, select)
         except Exception:
             pass
 
@@ -1364,10 +1374,19 @@ class sources:
             except Exception:
                 progressDialog.update(int((100 / float(len(items))) * i), str(header2), str(items[i]['label']))
 
+            if i in self.played:
+                continue
+            log_utils.log('oshanrube checking source: %s' % str(items[i]['source']), log_utils.LOGERROR)
+            # skip if there provider is a flash x
+            if items[i]['source'] == 'www.flashx.tv': continue
+            if items[i]['source'] == 'vev.io': continue
+            if items[i]['source'] == 'vshare.eu': continue
+
             try:
                 if xbmc.abortRequested is True:
                     return sys.exit()
 
+                self.played.append(i)
                 url = self.sourcesResolve(items[i])
                 if u is None:
                     u = url
