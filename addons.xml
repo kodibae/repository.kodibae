@@ -281,7 +281,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="script.module.exoscrapers" name="ExoScrapers Module" version="2.2.4" provider-name="Exodus">
+<addon id="script.module.exoscrapers" name="ExoScrapers Module" version="2.2.5" provider-name="Exodus">
     <requires>
         <import addon="xbmc.python" version="2.25.0" />
         <import addon="script.module.beautifulsoup4"/>
@@ -301,7 +301,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <icon>icon.png</icon>
         <fanart></fanart>
     </assets>
-    <news>v2.2.4 - scrapers and log_utils fix, torrent updates, scraper fixes</news>
+    <news>v2.2.5 - scrapers and log_utils fix, torrent updates, scraper fixes</news>
     </extension>
 </addon>
 
@@ -770,7 +770,7 @@ Added Trakt Manager
 	</extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="8.5.0" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="8.5.1" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.exodus" />
@@ -971,13 +971,14 @@ v5.2.14 (2017-01-23)
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="5.0.57" provider-name="tvaddons">
+<addon id="script.module.urlresolver" name="URLResolver" version="5.0.58" provider-name="tvaddons">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="plugin.video.youtube" optional="true" />
         <import addon="script.module.python.twitch" optional="true" />
         <import addon="script.module.cryptopy" version="1.2.6" optional="true" />
         <import addon="plugin.video.gdrive" optional="true" />
+        <import addon="plugin.program.indigo" />
     </requires>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.python.pluginsource" library="lib/default.py" />

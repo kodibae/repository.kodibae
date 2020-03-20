@@ -1,3 +1,20 @@
+[B]Version 5.0.58 (March 20, 2020)[/B]
+- Code Base Changes:
+    - none
+- Resolvers Added:
+    - pkspeed
+    - streamwire
+- Resolvers Fixed/Updated:
+    - entervideo
+    - mystream
+    - streamz
+    - waaw
+- Resolvers Removed
+    - dailynotion
+    - megamp4
+- Languages Added/Updated
+    - none
+
 [B]Version 5.0.57 (March 15, 2020)[/B]
 - Code Base Changes:
     - helpers
