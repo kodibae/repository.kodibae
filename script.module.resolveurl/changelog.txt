@@ -1,3 +1,20 @@
-[B]Version 5.0.38 (Feb 20, 2020)[/B]
-- See GitHub for changes
-    - https://github.com/jsergio123/script.module.resolveurl/commits/master
+[B]Version 5.0.42 (Apr 11, 2020)[/B]
+- Code Base Changes:
+    - Add 15 seconds timeout on urlopen
+    - Add strings for debridlink oauth
+- Resolvers Added:
+    - anavids
+    - liivideo
+    - vidcloud9
+- Resolvers Fixed/Updated:
+    - alldebrid
+    - cda
+    - debridlink
+    - clipwatching
+    - premiumize
+    - upstream
+    - vkprime
+- Resolvers Removed
+    - none
+- Languages Added/Updated
+    - none

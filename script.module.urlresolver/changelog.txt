@@ -1,3 +1,105 @@
+[B]Version 5.0.62 (Apr 13, 2020)[/B]
+- Code Base Changes:
+    - Add 15 seconds timeout on urlopen
+    - Add strings for debridlink oauth
+- Resolvers Added:
+    - anavids
+    - liivideo
+    - vidcloud9
+- Resolvers Fixed/Updated:
+    - alldebrid
+    - cda
+    - debridlink
+    - clipwatching
+    - premiumize
+    - upstream
+    - vkprime
+- Resolvers Removed
+    - none
+- Languages Added/Updated
+    - none
+
+[B]Version 5.0.61 (April 2, 2020)[/B]
+- Code Base Changes:
+    - strings
+- Resolvers Added:
+    - primevideos
+- Resolvers Fixed/Updated:
+    - aliez
+    - cda
+    - chromecast
+    - clicknupload
+    - clipwatching
+    - cloudb
+    - cloudmailru
+    - datemule
+    - gounlimited
+    - uptobox
+    - waaw
+- Resolvers Removed
+    - anyfiles
+    - bestream
+    - daclips
+    - estream
+    - gorillavid
+    - h265
+    - idtbox
+    - mehlizmovies
+    - movpod
+    - videoapne
+    - watchshare
+- Languages Added/Updated
+    - croatian
+    - czech
+    - dutch
+    - english (us)
+    - english
+    - galician
+    - german
+    - greek
+    - hebrew
+    - hungarian
+    - italian
+    - norwegian
+    - romanian
+    - slovak
+    - spanish
+    - swedish
+
+[B]Version 5.0.60 (March 27, 2020)[/B]
+- Code Base Changes:
+    - none
+- Resolvers Added:
+    - saruch
+    - sibnet
+    - vidfast
+    - vidspace
+- Resolvers Fixed/Updated:
+    - gamovideo
+    - upstream
+    - videa
+- Resolvers Removed
+    - fileholic
+    - putvid
+- Languages Added/Updated
+    - none
+
+[B]Version 5.0.59 (March 24, 2020)[/B]
+- Code Base Changes:
+    - none
+- Resolvers Added:
+    - none
+- Resolvers Fixed/Updated:
+    - dailymotion
+    - entervideo
+    - jetload
+    - streamwire
+    - uptobox
+- Resolvers Removed
+    - none
+- Languages Added/Updated
+    - none
+
 [B]Version 5.0.58 (March 20, 2020)[/B]
 - Code Base Changes:
     - none
