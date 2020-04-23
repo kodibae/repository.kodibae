@@ -1,0 +1,31 @@
+[B]Version 1.9[/B]
+- change to backto's streamlink module
+- change location
+
+[B]Version 1.8[/B]
+- Add libraries to Twilight0's streamlink module
+
+[B]Version 1.7[/B]
+- Point libraries to Jsergio123's ResolveURL
+
+[B]Version 1.6[/B]
+- Point libraries to tva new site
+
+[B]Version 1.5[/B]
+- remove TVA references
+
+[B]Version 1.4[/B]
+- update fanart
+
+[B]Version 1.3[/B]
+- Move distribution back to github
+
+[B]Version 1.2[/B]
+- Include TVAResolvers
+
+[B]Version 1.1[/B]
+- Move distribution to Offshoregit
+
+[B]Version 1.0[/B]
+- First version 1
+

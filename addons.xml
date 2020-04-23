@@ -69,9 +69,9 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.4.0" provider-name="doko">
+<addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.4.8" provider-name="doko">
     <requires>
-        <import addon="xbmc.python" version="2.20.0"/>
+        <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.requests"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="Default.py">
@@ -80,6 +80,37 @@
     <extension point="xbmc.addon.metadata">
         <news>
 [COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
+[B]0.4.8:[/B]
+- Fixed a typo in the addons.xml file (thanks @SerpentDrago!)
+
+[B]0.4.7:[/B]
+- Autoplay setting reinstated.
+- Added an option to show letter thumbnails on the catalog sections. Only useful if you're on a custom Kodi skin.
+- Added a warning whenever a video is blocked from excess traffic.
+
+[B]0.4.6:[/B]
+- Add-on re-enabled. Their site is back to letting free users watch videos.
+- To avoid overwhelming their servers on these COVID-19 quarantine times, the "autoplay highest quality" add-on setting was removed. So when you play a video, you'll always be asked what quality to use.
+
+[B]0.4.5:[/B]
+- Temporary disabling of the add-on. If the source site ever comes back, we can enable it again.
+
+[B]0.4.4:[/B]
+- Added an "About" button to the Trakt tab of the add-on settings, explaining how to use it.
+
+[B]0.4.3:[/B]
+- Fixed the series and episode search.
+
+[B]0.4.2:[/B]
+- Added a [B]Tools[/B] category to the settings. Each tool brings up a confirmation dialog
+explaining how they work, so you can read before using.
+- Tools added: Restore Watched Episodes, Update Favourites.
+- Minor fix to movie titles.
+
+[B]0.4.1:[/B]
+- Changed to a WatchCartoonOnline domain that's updated more frequently.
+- Fix for letters in episode numbers (when using the "Clean Episode Titles" option).
+
 [B]0.4.0:[/B]
 - Fix for when there's weird season ordinals in the episode titles.
 
@@ -91,20 +122,9 @@
 
 [B]0.3.7:[/B]
 - Fixed thumbnail images with the Show Information context menu.
-
-[B]0.3.6:[/B]
-- Updated the URL to the website, after a domain change.
-
-[B]0.3.5:[/B]
-- Fixed the Episode and Movie searches, the results are now playable.
-- Added the "Always Show Multi-chapter Dialog" setting, for use w/ shows that split episodes in parts.
-- Improved the Trakt listings, they now support movies, shows, seasons and episodes.
-
-[B]0.3.4:[/B]
-- Added a simple search history feature, see Search -> "Search History" menu.
         </news>
         <description lang="en">
-Watch cartoons and anime from [COLOR orange][B]WatchCartoonOnline.io[/B][/COLOR].
+Watch cartoons and anime from [COLOR orange][B]www.TheWatchCartoonOnline.tv[/B][/COLOR].
 
 Support the WatchCartoonOnline website with a PayPal donation to:
 [COLOR khaki][B]wcohelp@yandex.com[/B][/COLOR]
@@ -187,8 +207,9 @@ A lot of existing add-ons already integrate with this service out-of-the-box.</d
     </extension>
 </addon>
 
-<addon id="plugin.video.releaseBB" version="1.8.6" name="Release[COLOR orange][B]BB[/B][/COLOR]" provider-name="Bugatsinho">
+<addon id="plugin.video.releaseBB" version="1.9.0" name="Release[COLOR orange][B]BB[/B][/COLOR]" provider-name="Bugatsinho">
   <requires>
+    <import addon="script.module.cloudscraper" version="1.2.34"/>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.t0mm0.common" version="2.1.1"/>
     <import addon="script.module.resolveurl" version="5.0.1"/>
@@ -212,10 +233,8 @@ A lot of existing add-ons already integrate with this service out-of-the-box.</d
     <twitter>https://twitter.com/bugatsinho</twitter>
     <repo>https://bugatsinho.github.io/repo/</repo>
     <email>bugatsinho@protonmail.com</email>
-    <news>++ [B][COLOR lime]1.8.6[/B][/COLOR] [COLOR gold](03-01-2020)[/COLOR]
-- add foreign movies menu
-- fix search function to point titles link to old2.rlsbb domain
-- add service.py and make function to get the available RLSBB domains</news>
+    <news>+ [B][COLOR lime]1.9.0[/B][/COLOR] [COLOR gold](22-04-2020)[/COLOR]
+- add cloudscraper module to bypass cloudflare</news>
     <assets>
         <icon>icon.png</icon>
         <fanart>fanart.jpg</fanart>
@@ -281,7 +300,43 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="script.module.exoscrapers" name="ExoScrapers Module" version="2.2.8" provider-name="Exodus">
+<addon id="plugin.video.hummingbird" version="0.5.0" name="Hummingbird" provider-name="Wilson Magic">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+		<import addon="script.module.requests"/>
+        <import addon="script.module.resolveurl"/>
+        <import addon="script.module.pycryptodome"/>
+        <import addon="plugin.video.youtube"/>
+        <import addon="inputstream.adaptive"/>
+        <import addon="script.module.beautifulsoup4"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="hummingbird.py">
+		<provides>video</provides>
+	</extension>
+    <extension point="xbmc.service" library="service.py"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Hummingbird</summary>
+		<description lang="en">
+        Search Anime at Kitsu.io. Please note that this addon is not developed by the authors of Kitsu.
+		</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum>https://www.reddit.com/r/Addons4Kodi/</forum>
+		<website>https://kitsu.io/</website>
+		<source>https://kitsu.io/</source>
+		<assets>
+			<icon>resources/media/icon.png</icon>
+			<fanart>resources/media/fanart.jpg</fanart>
+            <screenshot>resources/media/screenshots/screenshot-01.jpg</screenshot>
+            <screenshot>resources/media/screenshots/screenshot-02.jpg</screenshot>
+            <screenshot>resources/media/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<news>
+		</news>
+	</extension>
+</addon>
+
+<addon id="script.module.exoscrapers" name="ExoScrapers Module" version="2.2.9" provider-name="Exodus">
     <requires>
         <import addon="xbmc.python" version="2.25.0" />
         <import addon="script.module.beautifulsoup4"/>
@@ -301,7 +356,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <icon>icon.png</icon>
         <fanart></fanart>
     </assets>
-    <news>v2.2.8 - scrapers and log_utils fix, torrent updates, scraper fixes</news>
+    <news>v2.2.9 - scrapers and log_utils fix, torrent updates, scraper fixes</news>
     </extension>
 </addon>
 
@@ -458,7 +513,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="plugin.video.seren" version="1.6.14" name="Seren" provider-name="Nixgates">
+<addon id="plugin.video.seren" version="1.6.16" name="Seren" provider-name="Nixgates">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0" />
 		<import addon="script.module.requests" version="2.19.1" />
@@ -501,6 +556,12 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
 		<news>
+Changelog 1.6.16:
+Fix response.status_code check for Trakt Auth
+
+Changelog 1.6.15:
+Adjsut status code responses for Trakt module
+
 Changelog 1.6.14:
 Remove cleaning of depricated settings as it was causing corrupt settings file
 
@@ -622,19 +683,6 @@ Playback parameters are now applied to further episodes
 Implement new listall endpoint for Premiumize cloud scraping (decreased scrape times)
 More minor bugfixes (honestly could not list them all)
 		</news>
-	</extension>
-</addon>
-
-<addon id="repository.jsergio" name="jsergio repo" version="1.0.4" provider-name="jsergio">
-	<extension point="xbmc.addon.repository" name="jsergio repo">
-        <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Repo for jsergio Add-ons</summary>
-		<description>Repo for jsergio Add-ons</description>
-		<platform>all</platform>
 	</extension>
 </addon>
 
@@ -792,7 +840,34 @@ Added Trakt Manager
 	</extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="8.5.4" name="Exodus" provider-name="Exodus">
+<addon id="service.subtitles.a4ksubtitles"
+       name="a4kSubtitles"
+       version="0.0.10"
+       provider-name="Unknown">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="vfs.libarchive"/>
+    <import addon="script.module.requests"/>
+  </requires>
+    <extension point="xbmc.subtitle.module" library="main.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">a4kSubtitles - Multi-Source Subtitles Addon</summary>
+        <description>
+Multi-source subtitles addon optimized for Seren.
+Supports: OpenSubtitles
+        </description>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <license>MIT License</license>
+        <website>https://github.com/newt-sc/a4kSubtitles</website>
+        <source>https://github.com/newt-sc/a4kSubtitles</source>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.exodus" version="8.5.5" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.exodus" />
@@ -828,64 +903,6 @@ Added Trakt Manager
 	</extension>
 </addon>
 
-<addon id="service.subloader"
-    name="SubLoader" version="0.1.4" provider-name="DenimNani">
-  <requires>
-    <import addon="xbmc.python" version="2.14.0"/>
-  </requires>
-  <extension point="xbmc.service" library="monitor.py" start="login"></extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Automatic subtitles for your content</summary>
-    <description lang="en">Auto download the best subtitle automatically as soon you start the video.
-Special thanks to OpenSubtitles.org for providing a unique UA for Subloader.</description>
-    <platform>all</platform>
-    <language>en</language>
-    <license>GPL</license>
-    <website>https://github.com/denimnani</website>
-	<assets>
-		<icon>iconsubloader.png</icon>
-		<fanart>fanartsubloader.png</fanart>
-		<screenshot>resources/media/screenshots/screenshot1subLoader.jpg</screenshot>
-		<screenshot>fanartsubloader.png</screenshot>
-	</assets>
-    <source>https://github.com/denimnani/service.subloader</source>
-    <forum></forum>
-    <email></email>
-	<news>0.1.4     23.07.2019
-Added Dutch language (Special thanks to Tinuz97).
-Clean up project files.
-
-0.1.3     21.07.2019
-Added OS user login.
-Fixed debug option.
-Added more debug information.
-Massive code rewrite.
-Several optimizations.
-Added audio language exclusions.
-Added video addon exclusions.
-Improved sorting settings.
-Improved settings layout.
-Added Do nothing option.
-
-0.1.2     17.06.2019
-Added a unique User Agent from Opensubtitles.org.
-
-0.1.1     12.06.2019
-Fixed release detection bug.
-Fixed typo.
-
-0.1.0     10.06.2019
-Fixed instalation bug.
-Fixed notifications bug.
-Started Beta convergence.
-Added default behavior selection.
-Added auto donwload any subtitle if no match found.
-Updated settings xml.
-Updated strings po.
-Release type detection improved.</news>
-  </extension>
-</addon>
-
 <addon id="repository.nixgates" name="Nixgates Repo" version="1.0.0" provider-name="Nixgates">
 	<extension point="xbmc.addon.repository" name="Nixgates Repo">
 		<info compressed="false">https://raw.githubusercontent.com/nixgates/nixgates/master/packages/addons.xml</info>
@@ -900,81 +917,7 @@ Release type detection improved.</news>
 	</extension>
 </addon>
 
-<addon id="service.subtitles.opensubtitles_by_opensubtitles"
-       name="OpenSubtitles.org by OpenSubtitles"
-       version="5.2.14"
-       provider-name="amet, opensubtitles">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.subtitle.module"
-             library="service.py" />
-  <extension point="xbmc.addon.metadata">
-    <summary>OpenSubtitles by OpenSubtitles.org</summary>
-    <description lang="en">Anonymously search and download subtitles for movies and TV-Series from OpenSubtitles.org without log-in. Search in 75 languages, 4.000.000+ subtitles, daily updates. </description>
-	<description lang="at">Pelis and Subtítulos TV en munches llingües, milenta de subtítulos traducíos y xubíos caldía. Descarga llibre dende la fonte, sofitu API, millones d'usuarios.</description>
-	<description lang="br">Istitloù Filmoù ha TV e meur a yezh, miliadoù a istitloù troet hag uskarget bemdez. Pellgargadenn digoust diouzh ar vammenn, skoazell an API, millionoù a implijerien.</description>
-	<description lang="ca">Subtítols de films i televisió en múltiples idiomes, milers de subtítols traduïts carregats diàriament. Descàrrega gratuïta des de la font, suport de l'API, amb milions d'usuaris.</description>
-	<description lang="cs">Titulky k filmům a seriálům v mnoha jazycích, denně tisíce nahraných přeložených titulků. Stažení zadarmo přímo od zdroje, podpora API, milióny uživatelů.</description>
-	<description lang="de">Film- und TV-Untertitel in vielen Sprachen, täglicher Upload von tausenden übersetzten Untertiteln. Freier Download von der Quelle, API-Unterstützung, Millionen Nutzer</description>
-	<description lang="el">Ταινίες και Σειρές σε όλες τις γλώσσες, χιλιάδες μεταφρασμένοι υπότιτλοι ανεβαίνουν καθημερινά, κατεβάστε δωρεάν , υποστήριξη API από εκατομμύρια χρήστες</description>
-	<description lang="eo">Filmaj kaj Televidaj subtekstoj en multaj lingvoj, miloj da tradukitaj subtekstoj ĉiutage alŝutataj. Senpaga elŝuto de fonto, API-subteno, miloj da uzantoj.</description>
-	<description lang="es">Películas y Subtítulos en diversos idiomas, miles de subtítulos traducidos subidos diariamente. Descarge gratis, soporte API, millones de usuarios.</description>
-	<description lang="et">Sadu Filmi ja TV Serjaalide subtiitrid erinevates keeltes laetakse üles igapäev. tasuta allalaadimine ja abi, rohkem kui miljon kasutajat.</description>
-	<description lang="eu">Film eta Telebista azpitituluak hizkuntza anitzetan, milaka azpititulu itzuliak igotzen dira egunero. Doan jaitsi iturburutik, API sostengua, milioika erabiltzaile.</description>
-	<description lang="fi">Tekstityksiä useilla kielillä elokuviin ja TV-Sarjoihin, tuhansia uusia tekstityksiä päivittäin, ilmainen lataus, API tuki, miljoonia käyttäjiä.</description>
-	<description lang="fr">Les sous-titres de film et téléfilm en plusieurs langues, des milliers de sous-titres traduits tous les jours. Bénéficiez de téléchargements gratuits depuis la source, du support API, une d'une communauté de millions d'utilisateurs.</description>
-	<description lang="hi">मूवी और टीवी उपशीर्षक कई भाषाओं में अनुवाद उपशीर्षक के हजारों दैनिक अपलोड की गई। मुफ्त डाउनलोड स्रोत से , एपीआई समर्थन, उपयोगकर्ताओं के लाखों लोगों की ।</description>
-	<description lang="hr">Titlovi za filmove i TV na mnogim jezicima, tisuće prijevoda postavljenih svaki dan. Besplatno preuzimanje s izvora, podrška za API, milijuni korisnika.</description>
-	<description lang="hu">Film és TV feliratok több nyelven, naponta több ezer lefordított felirat feltöltés. Ingyenes letöltés a forrástól, API támogatás, több millió felhasználó.</description>
-	<description lang="id">Subjudul film dan serial TV dalam multibahasa, ribuan subjudul diterjemah dan diunggah setiap harinya. Pengunduhan gratis dari sumber, didukung fitur antarmuka pemrograman aplikasi, dan jutaan pengguna.</description>
-	<description lang="is">Textar fyrir myndir og sjónvarpsþ. á mörgum tungumálum, þúsundir af þýddum textum upphlaðið daglega. Frítt niðurhal frá síðu, API stuðningur, milljónir notenda.</description>
-	<description lang="it">Sottotitoli di Film e TV in più lingue,migliaia di sottotitoli tradotti caricati ogni giorno.Download gratuito,supporto API, milioni di utenti.</description>
-	<description lang="ja">映画やテレビの字幕をさまざまな言語で。毎日数多くの翻訳字幕がアップロードされています。ソースを無料ダウンロード、API 対応、数百万を超えるユーザー。</description>
-	<description lang="ka">სუბტიტრები ფილმებისა და ტვ-სთვის მრავალ ენაზე. ათასობიტ თარგმნილი სუბტიტრის ატვირთვა ყოველდღიურად. უდასო ჩამოტვირტვა წყაროდან, API მხარდაჭერა, მილიონობით მომხმარებელი</description>
-	<description lang="km">អត្ថបទរឿងសម្រាប់ ខ្សែភាពយន្ត និងកម្មវិធីទូរទស្សន៍​ ជាភាសាជាច្រើន រួមនឹងអត្ថបទរឿងបកប្រែរាប់ពាន់​រឿង​ដែល​ត្រូវបាន​អ័ពឡូដជារៀងរាល់ថ្ងៃ។ ទាញយកដោយឥតគិតថ្លៃពីប្រភពដើម គាំទ្រ API និងមានអ្នកប្រើប្រាស់រាប់លាននាក់។ </description>
-	<description lang="ko">Movie and TV Subtitles in multiple languages, thousands of translated subtitles uploaded daily. Free download from source, API support, millions of users.</description>
-	<description lang="ms">Sarikata TV dan Movie dalam pelbagai bahasa, ribuan terjemahan sarikata dimuat-naik setiap hari.Muat-turun percuma dari sumber utama, sokongan API, jutaan pengguna.</description>
-	<description lang="nl">Ondertitels voor films en tv-series in meerdere talen, dagelijks upload van duizenden vertaalde ondertitels. Gratis downloaden van de bron, API ondersteuning, miljoenen gebruikers.</description>
-	<description lang="no">Undertekster for film og TV på mange språk, med tusener av nye oversettelser hver dag. Vi har gratis nedlasting av undertekster, API-support, og mange millioner brukere.</description>
-	<description lang="pt-br">Milhares de legendas para filmes e seriados de TV, em vários idiomas, são traduzidas e enviadas diariamente. Download grátis, suporte API e milhões de usuários.</description>
-	<description lang="pl">Napisy do filmów i seriali w wielu językach. Tysiące napisów dodawanych codziennie. Darmowe pobranie, miliony użytkowników.</description>
-	<description lang="pt">Legendas de filmes e séries de TV em vários idiomas, milhares de legendas traduzidas e enviadas diariamente. Download grátis a partir da fonte, suporte API, milhões de utilizadores.</description>
-	<description lang="ro">Subtitrari pentru filme in multe limbi, mii de subtitrari traduse si încărcate in fiecare zi. Descărca gratuit de la sursă, suport API, milioane de utilizatori.</description>
-	<description lang="ru">Кино и ТВ субтитры на нескольких языках, тысячи переведенными субтитрами загружены ежедневно. Бесплатно скачать из исходных текстов, поддержка API, миллионы пользователей.</description>
-	<description lang="sk">Titulky pre filmy a TV seriály, denne nahratých tisíce titulkov preložených vo viacerých jazykoch. Sťahuj zadarmo zo zdroja, podpora API, milióny používateľov.</description>
-	<description lang="sl">Filmski in televizijski podnapisi v mnogo jezikih, na tisoče prevedenih podnapisov dnevno. Brezplačen prenos iz vira, podpora API, miljoni uporabnikov.</description>
-	<description lang="sq">Titra filmash dhe serialesh në shumë gjuhë, mijëra titra të përkthyera që vendosen çdo ditë. Shkarko nga burimi, apo nga mbështetja e API-së, miliona përdorues.</description>
-	<description lang="sr">Titlovi za filmove i TV na mnogim jezicima, hiljade prevoda okačenih svakodnevno. Besplatno skidanje sa izvora, podrška za API, milioni korisnika.</description>
-	<description lang="sv">Filmer och Tv-undertexter med olika språk, tusentals översatta undertexter uppladdade dagligen. Gratis nerladdning från källor, API support, miljoner av användare.</description>
-	<description lang="tr">Her gün eklenen, pek çok dildeki binlerce film ve dizi altyazısı. Kaynağından ücretsiz indirme, API desteği ve milyonlarca kullanıcı.</description>
-	<description lang="uz">Film va TV Taglavhalari ko'p tillarda, minglab tarjima qilingan taglavhalar har kuni tizimga yuklanadi. Bepul resursdan yuklab oling, API qo'llaydi, millionlab foydalanuvchilar.</description>
-	<description lang="zh">多语种的电影及剧集字幕，每日更新千余条翻译好的字幕。免费下载，提供API接口，已拥有上百万的用户。</description>
-    <disclaimer>Works without log-in</disclaimer>
-	<news>
-Improved add-on by OpenSubtitles.org
-v5.2.14 (2017-01-23)
-- Users are able to download subtitles as anonymous without authentication. Added localized descriptions, media files
-- New feature: Users are able to check for subtitles when Kodi is not playing, by using the manual search or by standing on an item and opening the subtitles search dialog (By key or by an external addon)  | @burekas
-	</news>
-    <platform>all</platform>
-	<language></language>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum>https://forum.opensubtitles.org/viewtopic.php?f=8&amp;t=15847</forum>
-    <website>http://www.opensubtitles.org</website>
-    <email>admin [at] opensubtitles {dot} org</email>
-	<assets>
-	    <icon>resources/media/os_logo_512x512.png</icon>
-	    <fanart>resources/media/os_fanart.jpg</fanart>
-		<screenshot>resources/media/screenshot_1.jpg</screenshot>
-		<screenshot>resources/media/screenshot_2.jpg</screenshot>
-		<screenshot>resources/media/screenshot_3.jpg</screenshot>
-	</assets>
-    <source>https://github.com/opensubtitles/service.subtitles.opensubtitles_by_opensubtitles</source>
-  </extension>
-</addon>
-
-<addon id="plugin.video.wonderfulsubs" name="WonderfulSubs : Anime Subs &amp; Dubs" provider-name="DxCx" version="0.0.28">
+<addon id="plugin.video.wonderfulsubs" name="WonderfulSubs : Anime Subs &amp; Dubs" provider-name="DxCx" version="0.0.29">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.requests" version="2.12.4" />
@@ -1025,6 +968,24 @@ v5.2.14 (2017-01-23)
 	<extension point="xbmc.addon.metadata">
 		<summary>Themes for the Exodus Addon</summary>
 		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.gujal" name="Gujal Addon Repository" version="1.9" provider-name="Gujal">
+	<extension point="xbmc.addon.repository" name="Gujal Addons Repository">
+		<dir>
+			<info compressed="true">https://raw.githubusercontent.com/back-to/repo/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/back-to/repo/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/back-to/repo/master/</datadir>
+		</dir>
+		<info compressed="false">https://raw.github.com/Gujal00/GujalKodiWork/master/upto_leia/addons.xml</info>
+		<checksum>https://raw.github.com/Gujal00/GujalKodiWork/master/upto_leia/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/Gujal00/GujalKodiWork/master/upto_leia/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Third party Addons for Kodi</summary>
+		<description>Gujal Addons Repository</description>
 		<platform>all</platform>
 	</extension>
 </addon>

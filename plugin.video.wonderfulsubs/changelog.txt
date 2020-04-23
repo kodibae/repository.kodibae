@@ -1,3 +1,5 @@
+[B]0.0.29[/B]
+- Migrate to api version 2 [Thanks @nalch]
 [B]0.0.28[/B]
 - Add platform header [RedNinjaX]
 [B]0.0.27[/B]
