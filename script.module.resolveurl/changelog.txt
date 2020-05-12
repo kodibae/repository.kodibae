@@ -1,20 +1,15 @@
-[B]Version 5.0.42 (Apr 11, 2020)[/B]
+Version 5.0.46 (May 12, 2020)
 - Code Base Changes:
-    - Add 15 seconds timeout on urlopen
-    - Add strings for debridlink oauth
+    - update User-Agents
+
 - Resolvers Added:
-    - anavids
-    - liivideo
-    - vidcloud9
+    - easyload
+ 
 - Resolvers Fixed/Updated:
-    - alldebrid
-    - cda
-    - debridlink
-    - clipwatching
-    - premiumize
-    - upstream
-    - vkprime
+    - hxload
+
 - Resolvers Removed
     - none
+
 - Languages Added/Updated
     - none
