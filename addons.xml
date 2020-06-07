@@ -21,12 +21,13 @@
   </extension>
 </addon>
 
-<addon id="script.module.streamlink.base" name="Streamlink Library" version="2019.11.11.1" provider-name="Streamlink Devs, Twilight0">
+<addon id="script.module.streamlink.base" name="Streamlink Library" version="2020.03.05" provider-name="Streamlink Devs, Twilight0">
   <requires>
       <import addon="xbmc.python" version="2.24.0"/>
       <import addon="script.module.requests" version="2.12.4"/>
       <import addon="script.module.futures" version="2.2.0"/>
       <import addon="script.module.cryptolib" version="1.1.0"/>
+<!--      <import addon="script.module.pycryptodome" version="3.4.3"/>-->
   </requires>
   <extension point="xbmc.python.module" library="resources/lib/"/>
   <extension point="xbmc.addon.metadata">
@@ -39,9 +40,12 @@
       <assets>
           <icon>icon.png</icon>
       </assets>
-      <news>+2019.11.11.X
-- Updated to cc32730ea7c9749169df34e2f1a82c1fdb704df4 from upstream
-      > USTVNOW plugin has been removed due to improper crypto library imports (due to backwards compatibility)</news>
+      <news>+2020.03.05
+- Updated to latest commit
+
++2020.01.28
+- Updated to latest upstream commit
+- Tweaks for import errors for Python 3</news>
   </extension>
 </addon>
 
@@ -336,7 +340,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="script.module.exoscrapers" name="ExoScrapers Module" version="2.3.1" provider-name="Exodus">
+<addon id="script.module.exoscrapers" name="ExoScrapers Module" version="2.3.2" provider-name="Exodus">
     <requires>
         <import addon="xbmc.python" version="2.25.0" />
         <import addon="script.module.beautifulsoup4"/>
@@ -356,7 +360,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <icon>icon.png</icon>
         <fanart></fanart>
     </assets>
-    <news>v2.3.1 - scrapers and log_utils fix, torrent updates, scraper fixes</news>
+    <news>v2.3.2 - scrapers and log_utils fix, torrent updates, scraper fixes</news>
     </extension>
 </addon>
 
@@ -492,9 +496,10 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.46" provider-name="jsergio, gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.0" provider-name="gujal">
     <requires>
-        <import addon="xbmc.python" version="2.1.0" />
+        <!-- <import addon="xbmc.python" version="3.0.0" /> -->
+        <import addon="script.module.six" version="0.0.1"/>
         <import addon="plugin.video.youtube" optional="true" />
         <import addon="script.module.python.twitch" optional="true" />
         <import addon="script.module.cryptopy" version="1.2.6" optional="true" />
@@ -510,10 +515,14 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <summary lang="el">Επίλυση συνδέσμων κοινών εξυπηρετητών σε μορφή βίντεο ικανό για αναπαραγωγή στο XBMC/Kodi.</summary>
         <description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
         <description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
     </extension>
 </addon>
 
-<addon id="plugin.video.seren" version="1.6.16" name="Seren" provider-name="Nixgates">
+<addon id="plugin.video.seren" version="1.6.19" name="Seren" provider-name="Nixgates">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0" />
 		<import addon="script.module.requests" version="2.19.1" />
@@ -556,6 +565,15 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
 		<news>
+Changelog 1.6.19:
+Actually fixed alldebrid this time, promise
+
+Changelog 1.6.18:
+Fixed extraction of magnet ID in AllDebrid module when resolving single file items
+
+Changelog 1.6.17:
+Update AllDebrid module for new API version
+
 Changelog 1.6.16:
 Fix response.status_code check for Trakt Auth
 
@@ -842,7 +860,7 @@ Added Trakt Manager
 
 <addon id="service.subtitles.a4ksubtitles"
        name="a4kSubtitles"
-       version="0.0.28"
+       version="1.6.0"
        provider-name="Unknown">
     <requires>
       <import addon="xbmc.python" version="2.25.0"/>
@@ -850,6 +868,7 @@ Added Trakt Manager
       <import addon="script.module.requests"/>
     </requires>
     <extension point="xbmc.subtitle.module" library="main.py"/>
+    <extension point="xbmc.service" library="main_service.py" />
     <extension point="xbmc.addon.metadata">
         <summary lang="en">a4kSubtitles - Multi-Source Subtitles Addon</summary>
         <description>
@@ -863,8 +882,45 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, SubDB, Subscene, Addic7ed
         <source>https://github.com/newt-sc/a4kSubtitles</source>
         <assets>
             <icon>icon.png</icon>
+            <screenshot>screenshot-01.png</screenshot>
+            <screenshot>screenshot-02.png</screenshot>
+            <screenshot>screenshot-03.png</screenshot>
         </assets>
         <news>
+[v1.6.0]:
+  * Add option to auto download first subtitle result silently
+
+[v1.5.0]:
+  * Auto open search dialog only on movie and tvshow videos
+
+[v1.4.0]:
+  * Add option to auto open the search dialog when the video does not have subtitles
+
+[v1.3.0]:
+  * Improve tvshow year scraping
+
+[v1.2.0]:
+  * Use internal ZipFile for extraction with a fallback to vfs.libarchive
+
+[v1.1.0]:
+  * Improve imdb id scraping
+
+[v1.0.1]:
+  * Add screenshots
+
+[v1.0.0]:
+  * Invalidate BSPlayer results cache when download links expire
+  * Extraction fallback: zip -> gzip -> raw
+
+[v0.0.30]:
+  * Add service names in ad detection
+  * Removed the option to disable cleaning of ads
+  * Add remote fetching of addic7ed data
+
+[v0.0.29]:
+  * Fix Podnadpisi download of results missing filename meta
+  * Fix last results cache not invalidated on language preferences change
+
 [v0.0.28]:
   * Attempt scrape of imdb id when missing
   * Improve filename parsing
@@ -1000,7 +1056,7 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, SubDB, Subscene, Addic7ed
     </extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="8.5.7" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="8.5.8" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.exodus" />
@@ -1069,7 +1125,7 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, SubDB, Subscene, Addic7ed
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="5.0.66" provider-name="tvaddons">
+<addon id="script.module.urlresolver" name="URLResolver" version="5.0.67" provider-name="tvaddons">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="plugin.video.youtube" optional="true" />

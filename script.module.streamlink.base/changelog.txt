@@ -1,3 +1,10 @@
++2020.03.05
+- Updated to latest commit
+
++2020.01.28
+- Updated to latest upstream commit
+- Tweaks for import errors for Python 3
+
 +2019.11.11.X
 - Updated to cc32730ea7c9749169df34e2f1a82c1fdb704df4 from upstream
       > USTVNOW plugin has been removed due to improper crypto library imports (due to backwards compatibility)
@@ -115,7 +122,7 @@
 + 2017.09.20
 - Fixes for ordered dict import for Kodi 16
 - Rebased on upstream 0.8.1 release
-- Removed dependency for shutil_which &amp; singledispatch
+- Removed dependency for shutil_which & singledispatch
 
 + 2017.09.06
 - Fixes for relative imports

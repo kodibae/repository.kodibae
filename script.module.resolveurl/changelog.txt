@@ -1,15 +1,53 @@
-Version 5.0.46 (May 12, 2020)
+Version 5.1.0 (June 7, 2020)
 - Code Base Changes:
-    - update User-Agents
+    - All code has been updated to work in both PY2/PY3
+    - Kodi Matrix compatible
 
 - Resolvers Added:
-    - easyload
+    - PlayTube
  
 - Resolvers Fixed/Updated:
-    - hxload
+    - None
 
 - Resolvers Removed
-    - none
+    - abcvideo
+    - castamp
+    - doodstream
+    - flix555
+    - gamovideo
+    - grifthost
+    - idup
+    - irshare
+    - kupload
+    - movdivx
+    - myviru
+    - oneload
+    - playedto
+    - powvideo
+    - primevideos
+    - prostream
+    - speedvid
+    - ssfiles
+    - streamenet
+    - streammoe
+    - streamplay
+    - syfy
+    - tocloud
+    - tolstd_fel
+    - unitplay
+    - upfiles
+    - usersfiles
+    - ustream
+    - verystream
+    - vidbom
+    - vidcloud
+    - vidtodo
+    - vidmad
+    - vidup
+    - vshare
+    - waaw
+    - zevera
+
 
 - Languages Added/Updated
-    - none
+    - None
