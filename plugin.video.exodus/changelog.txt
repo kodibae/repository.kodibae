@@ -1,5 +1,8 @@
 Exodus Changelog:
-8.5.9
-- begin work for py3 compatibility - tikipete
-- BTDB fix for domain change
-- torrents updates
+8.6.0
+- Update cfscrape to 1.2.41
+- Added option to Settings "Show Changelog"
+- Added option to Settings "Notify Me About Available Updates"
+- Removed SEEHD, v2 cloudflare challenge
+- Added new free hoster WATCHEPISODESERIES1
+- fixed and brought back 5MOVIES

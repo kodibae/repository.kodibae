@@ -21,13 +21,12 @@
   </extension>
 </addon>
 
-<addon id="script.module.streamlink.base" name="Streamlink Library" version="2020.03.05" provider-name="Streamlink Devs, Twilight0">
+<addon id="script.module.streamlink.base" name="Streamlink Library" version="2020.06.21" provider-name="Streamlink Devs, Twilight0">
   <requires>
-      <import addon="xbmc.python" version="2.24.0"/>
+      <import addon="xbmc.python" version="2.26.0"/>
       <import addon="script.module.requests" version="2.12.4"/>
       <import addon="script.module.futures" version="2.2.0"/>
-      <import addon="script.module.cryptolib" version="1.1.0"/>
-<!--      <import addon="script.module.pycryptodome" version="3.4.3"/>-->
+      <import addon="script.module.pycryptodome" />
   </requires>
   <extension point="xbmc.python.module" library="resources/lib/"/>
   <extension point="xbmc.addon.metadata">
@@ -40,7 +39,11 @@
       <assets>
           <icon>icon.png</icon>
       </assets>
-      <news>+2020.03.05
+      <news>+2020.06.21
+- Updated to latest commit
+- Dropped cryptolib in favour of pycryptodome
+
++2020.03.05
 - Updated to latest commit
 
 +2020.01.28
@@ -340,7 +343,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="script.module.exoscrapers" name="ExoScrapers Module" version="2.3.3" provider-name="Exodus">
+<addon id="script.module.exoscrapers" name="ExoScrapers Module" version="2.3.4" provider-name="Exodus">
     <requires>
 		<import addon="xbmc.python" version="2.25.0" />
 		<import addon="script.module.beautifulsoup4" />
@@ -361,10 +364,13 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <icon>icon.png</icon>
         <fanart></fanart>
     </assets>
-    <news>2.3.3
-- begin work for py3 compatibility - tikipete
-- BTDB fix for domain change
-- torrents updates</news>
+    <news>2.3.4
+- Update cfscrape to 1.2.41
+- Added option to Settings "Show Changelog"
+- Added option to Settings "Notify Me About Available Updates"
+- Removed SEEHD, v2 cloudflare challenge
+- Added new free hoster WATCHEPISODESERIES1
+- fixed and brought back 5MOVIES</news>
     </extension>
 </addon>
 
@@ -500,7 +506,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.0" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.1" provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" version="0.0.1"/>
@@ -1060,7 +1066,7 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, SubDB, Subscene, Addic7ed
     </extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="8.5.9" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="8.6.0" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.exodus" />
@@ -1129,7 +1135,7 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, SubDB, Subscene, Addic7ed
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="5.1.0" provider-name="tvaddons">
+<addon id="script.module.urlresolver" name="URLResolver" version="5.1.1" provider-name="tvaddons">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" version="0.0.1"/>

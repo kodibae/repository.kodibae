@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.module.streamlink.base" name="Streamlink Library" version="2020.03.05" provider-name="Streamlink Devs, Twilight0">
+<addon id="script.module.streamlink.base" name="Streamlink Library" version="2020.06.21" provider-name="Streamlink Devs, Twilight0">
   <requires>
-      <import addon="xbmc.python" version="2.24.0"/>
+      <import addon="xbmc.python" version="2.26.0"/>
       <import addon="script.module.requests" version="2.12.4"/>
       <import addon="script.module.futures" version="2.2.0"/>
-      <import addon="script.module.cryptolib" version="1.1.0"/>
-<!--      <import addon="script.module.pycryptodome" version="3.4.3"/>-->
+      <import addon="script.module.pycryptodome" />
   </requires>
   <extension point="xbmc.python.module" library="resources/lib/"/>
   <extension point="xbmc.addon.metadata">
@@ -18,7 +17,11 @@
       <assets>
           <icon>icon.png</icon>
       </assets>
-      <news>+2020.03.05
+      <news>+2020.06.21
+- Updated to latest commit
+- Dropped cryptolib in favour of pycryptodome
+
++2020.03.05
 - Updated to latest commit
 
 +2020.01.28

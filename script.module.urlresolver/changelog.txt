@@ -1,3 +1,17 @@
+[B]Version 5.1.1 (June 21, 2020)[/B]
+- Code Base Changes:
+    - none
+- Resolvers Added:
+    - none
+- Resolvers Fixed/Updated:
+    - debrid_link
+    - fembed
+    - wstream
+- Resolvers Removed:
+    - none
+- Languages Added/Updated
+    - none
+
 [B]Version 5.1.0 (June 15, 2020)[/B]
 - Code Base Changes:
     - all code has been updated to work in both py2/py3
