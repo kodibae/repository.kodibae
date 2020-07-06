@@ -1,5 +1,5 @@
 Exodus Changelog:
-8.6.1
+8.6.2
 - More work for Py3 compatibility
 - changed settings.xml, moved foreign scrapers 
 - fixed and brought back ULTRAHDINDIR

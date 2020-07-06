@@ -1,5 +1,5 @@
 ExoScrapers Module Changelog:
-2.3.5
+2.3.6
 - More work for Py3 compatibility
 - changed settings.xml, moved foreign scrapers 
 - fixed and brought back ULTRAHDINDIR

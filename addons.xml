@@ -343,7 +343,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="script.module.exoscrapers" name="ExoScrapers Module" version="2.3.5" provider-name="Exodus">
+<addon id="script.module.exoscrapers" name="ExoScrapers Module" version="2.3.6" provider-name="Exodus">
     <requires>
 		<import addon="xbmc.python" version="2.25.0" />
 		<import addon="script.module.beautifulsoup4" />
@@ -364,7 +364,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <icon>icon.png</icon>
         <fanart></fanart>
     </assets>
-    <news>2.3.5
+    <news>2.3.6
 - More work for Py3 compatibility
 - changed settings.xml, moved foreign scrapers
 - fixed and brought back ULTRAHDINDIR
@@ -1069,7 +1069,7 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, SubDB, Subscene, Addic7ed
     </extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="8.6.1" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="8.6.2" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.exodus" />
