@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.module.exoscrapers" name="ExoScrapers Module" version="2.3.4" provider-name="Exodus">
+<addon id="script.module.exoscrapers" name="ExoScrapers Module" version="2.3.5" provider-name="Exodus">
     <requires>
 		<import addon="xbmc.python" version="2.25.0" />
 		<import addon="script.module.beautifulsoup4" />
@@ -20,12 +20,15 @@
         <icon>icon.png</icon>
         <fanart></fanart>
     </assets>
-    <news>2.3.4
-- Update cfscrape to 1.2.41
-- Added option to Settings "Show Changelog"
-- Added option to Settings "Notify Me About Available Updates"
-- Removed SEEHD, v2 cloudflare challenge
-- Added new free hoster WATCHEPISODESERIES1
-- fixed and brought back 5MOVIES</news>
+    <news>2.3.5
+- More work for Py3 compatibility
+- changed settings.xml, moved foreign scrapers 
+- fixed and brought back ULTRAHDINDIR
+- fixed MYVIDEOLINK, again
+- fixed encode issue in 5MOVIES
+- changed YOURBITTORENT default to 'false'.  Server timeout issues of late
+- changed MKVHUB default to 'false'.  Cloudflare v2 challenge, may be removed if persists
+- changed YESMOVIESGG default to 'false'.  Cloudflare v2 challenge, may be removed if persists
+- fixed client module redundant error logging</news>
     </extension>
 </addon>
