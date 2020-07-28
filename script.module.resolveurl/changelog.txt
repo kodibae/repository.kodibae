@@ -1,15 +1,13 @@
-Version 5.1.0 (June 7, 2020)
+Version 5.1.4 (July 25, 2020)
 - Code Base Changes:
-    - Change Init logging to debug level
-    - Addtional helper functions
+    - additional encoding fixes for settings.xml
 
 - Resolvers Added:
-    - Daxab
+    - voe.sx
  
 - Resolvers Fixed/Updated:
-    - WStream
-    - FEmbed
-    - Debrid-link
+    - mixdrop
+    - nxload
 
 - Resolvers Removed
     - None

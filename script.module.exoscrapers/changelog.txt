@@ -1,11 +1,7 @@
 ExoScrapers Module Changelog:
-2.3.6
-- More work for Py3 compatibility
-- changed settings.xml, moved foreign scrapers 
-- fixed and brought back ULTRAHDINDIR
-- fixed MYVIDEOLINK, again
-- fixed encode issue in 5MOVIES
-- changed YOURBITTORENT default to 'false'.  Server timeout issues of late
-- changed MKVHUB default to 'false'.  Cloudflare v2 challenge, may be removed if persists
-- changed YESMOVIESGG default to 'false'.  Cloudflare v2 challenge, may be removed if persists
-- fixed client module redundant error logging
+2.3.7
+- Torrent scrapers updated for pack scraping support.
+    Please read help in settings, requires addon support!!
+- New setting added to Torrent scrapers to filter undesirables
+    Please read help in settings
+- New setting added to filter identified Foreign single audio sources
