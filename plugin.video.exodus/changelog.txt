@@ -1,7 +1,5 @@
 Exodus Changelog:
-8.6.3
-- Torrent scrapers updated for pack scraping support.
-    Please read help in settings, requires addon support!!
-- New setting added to Torrent scrapers to filter undesirables
-    Please read help in settings
-- New setting added to filter identified Foreign single audio sources
+8.6.4
+- Fixed some hosters broken by previous pack file support inclusion.
+- Few pack file filter tweaks.
+- Removed a few new cloudflare v2 challenge scrapers

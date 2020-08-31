@@ -1,13 +1,13 @@
-[B]Recently Updated:[/B] July 28, 2020
+[B]Recently Updated:[/B] August 31, 2020
 
-Long awaited [B]Exodus updates[/B] have now
-reached your system!
+I've [B]recently recovered[/B] from [B]Coronavirus[/B]
+which is why [B]no updates were pushed[/B] lately.
 
-These updates should [B]improve scraping[/B],
-[B]debrid features[/B], and addon [B]reliability[/B]. 
+These updates will [B]improve scraping[/B] to
+result in [B]more HD streams[/B] in Exodus.
 
-If you wish to [B]upgrade your Exodus
-experience[/B], you'll need to [B]get a VPN[/B].
-I'd [B]suggest the one[/B] at the link [B]below[/B].
+If you [B]want to get better performance[/B] out
+of Exodus, a [B]VPN is required[/B] in most cases
+to [B]circumvent website blocking[/B] regimes...
 
-TOP VPN: [B]https://www.exodusvpn.com[/B]
+EXODUS VPN: [B]https://www.exodusvpn.com[/B]

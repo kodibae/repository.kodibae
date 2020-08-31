@@ -214,7 +214,7 @@ A lot of existing add-ons already integrate with this service out-of-the-box.</d
     </extension>
 </addon>
 
-<addon id="plugin.video.releaseBB" version="1.9.0" name="Release[COLOR orange][B]BB[/B][/COLOR]" provider-name="Bugatsinho">
+<addon id="plugin.video.releaseBB" version="2.0.0" name="Release[COLOR orange][B]BB[/B][/COLOR]" provider-name="Bugatsinho">
   <requires>
     <import addon="script.module.cloudscraper" version="1.2.34"/>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -240,8 +240,8 @@ A lot of existing add-ons already integrate with this service out-of-the-box.</d
     <twitter>https://twitter.com/bugatsinho</twitter>
     <repo>https://bugatsinho.github.io/repo/</repo>
     <email>bugatsinho@protonmail.com</email>
-    <news>+ [B][COLOR lime]1.9.0[/B][/COLOR] [COLOR gold](22-04-2020)[/COLOR]
-- add cloudscraper module to bypass cloudflare</news>
+    <news>+ [B][COLOR lime]2.0.0[/B][/COLOR] [COLOR gold](22-04-2020)[/COLOR]
+- add eztv website option</news>
     <assets>
         <icon>icon.png</icon>
         <fanart>fanart.jpg</fanart>
@@ -343,7 +343,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="script.module.exoscrapers" name="ExoScrapers Module" version="2.3.7" provider-name="Exodus">
+<addon id="script.module.exoscrapers" name="ExoScrapers Module" version="2.3.8" provider-name="Exodus">
     <requires>
 		<import addon="xbmc.python" version="2.25.0" />
 		<import addon="script.module.beautifulsoup4" />
@@ -365,12 +365,10 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <fanart></fanart>
     </assets>
     <news>
-    2.3.7
-    - Torrent scrapers updated for pack scraping support.
-    Please read help in settings, requires addon support!!
-- New setting added to Torrent scrapers to filter undesirables
-    Please read help in settings
-- New setting added to filter identified Foreign single audio sources
+2.3.8
+- Fixed some hosters broken by previous pack file support inclusion.
+- Few pack file filter tweaks.
+- Removed a few new cloudflare v2 challenge scrapers
     </news>
     </extension>
 </addon>
@@ -507,7 +505,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.4" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.6" provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" version="0.0.1"/>
@@ -1067,7 +1065,7 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, SubDB, Subscene, Addic7ed
     </extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="8.6.3" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="8.6.4" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.exodus" />
@@ -1136,7 +1134,7 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, SubDB, Subscene, Addic7ed
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="5.1.1" provider-name="tvaddons">
+<addon id="script.module.urlresolver" name="URLResolver" version="5.1.5" provider-name="tvaddons">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" version="0.0.1"/>
