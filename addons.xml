@@ -343,7 +343,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="script.module.exoscrapers" name="ExoScrapers Module" version="2.3.8" provider-name="Exodus">
+<addon id="script.module.exoscrapers" name="ExoScrapers Module" version="2.3.9" provider-name="Exodus">
     <requires>
 		<import addon="xbmc.python" version="2.25.0" />
 		<import addon="script.module.beautifulsoup4" />
@@ -365,10 +365,8 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <fanart></fanart>
     </assets>
     <news>
-2.3.8
-- Fixed some hosters broken by previous pack file support inclusion.
-- Few pack file filter tweaks.
-- Removed a few new cloudflare v2 challenge scrapers
+2.3.9
+- Torrent scraper fixes.
     </news>
     </extension>
 </addon>
@@ -1065,7 +1063,7 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, SubDB, Subscene, Addic7ed
     </extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="8.6.4" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="8.6.5" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.exodus" />
@@ -1264,7 +1262,7 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, SubDB, Subscene, Addic7ed
 	</extension>
 </addon>
 
-<addon id="plugin.video.PLsportowo" name="Sportowa TV" version="1.9.3" provider-name="mbebe">
+<addon id="plugin.video.PLsportowo" name="Sportowa TV" version="2.0" provider-name="mbebe">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 		<import addon="script.module.requests" />
@@ -1276,6 +1274,7 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, SubDB, Subscene, Addic7ed
 	<extension point="xbmc.python.pluginsource" library="maintv.py">
 		<provides>video</provides>
 	</extension>
+	<extension point="xbmc.service" library="serverHTTP.py" />
 	<extension point="xbmc.addon.metadata">
 		<description>Wydarzenia sportowe</description>
 		<disclaimer>https://github.com/mbebe/blomqvist</disclaimer>

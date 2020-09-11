@@ -1,5 +1,3 @@
 ExoScrapers Module Changelog:
-2.3.8
-- Fixed some hosters broken by previous pack file support inclusion.
-- Few pack file filter tweaks.
-- Removed a few new cloudflare v2 challenge scrapers
+2.3.9
+- Torrent scraper fixes.

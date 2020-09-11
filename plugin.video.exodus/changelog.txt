@@ -1,5 +1,3 @@
 Exodus Changelog:
-8.6.4
-- Fixed some hosters broken by previous pack file support inclusion.
-- Few pack file filter tweaks.
-- Removed a few new cloudflare v2 challenge scrapers
+8.6.5
+- Torrent scraper fixes.
