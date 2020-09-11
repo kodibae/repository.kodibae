@@ -163,7 +163,7 @@ Add-on by doko.
 
 <addon id="plugin.video.tvalacarta"
     name="tvalacarta"
-    version="4.1.3"
+    version="4.2.0"
     provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
