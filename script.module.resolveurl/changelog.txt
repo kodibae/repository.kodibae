@@ -1,17 +1,16 @@
-Version 5.1.6 (August 16, 2020)
+Version 5.1.9 (September 19, 2020)
 - Code Base Changes:
-    - None
+    - Add referer to final url for embeds without referer
 
 - Resolvers Added:
-    - Doodstream
-    - Vidup
-    - Vidbom
+    - None
  
 - Resolvers Fixed/Updated:
-    - vidstreaming
+    - Linksnappy
+    - Playtube
 
 - Resolvers Removed
     - None
 
 - Languages Added/Updated
-    - None
+    - All supported languages for additional strings required by linksnappy resolver

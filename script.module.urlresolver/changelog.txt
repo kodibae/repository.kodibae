@@ -1,3 +1,45 @@
+Version 5.1.9 (September 21, 2020)
+- Code Base Changes:
+    - add referer to final url for embeds without referer
+- Resolvers Added:
+    - none
+- Resolvers Fixed/Updated:
+    - linksnappy
+    - playtube
+- Resolvers Removed
+    - none
+- Languages Added/Updated
+    - all supported languages for additional strings required by linksnappy resolver
+
+Version 5.1.8 (September 11, 2020)
+- Code Base Changes:
+    - none
+- Resolvers Added:
+    - none
+- Resolvers Fixed/Updated:
+    - premiumize
+    - cloud9
+    - gounlimited
+- Resolvers Removed
+    - none
+- Languages Added/Updated
+    - none
+
+Version 5.1.6 (August 31, 2020)
+- Code Base Changes:
+    - none
+- Resolvers Added:
+    - doodstream
+    - vidup
+    - vidbom
+- Resolvers Fixed/Updated:
+    - vidstreaming
+    - gounlimited
+- Resolvers Removed
+    - none
+- Languages Added/Updated
+    - none
+
 Version 5.1.5 (August 12, 2020)
 - Code Base Changes:
     - none
