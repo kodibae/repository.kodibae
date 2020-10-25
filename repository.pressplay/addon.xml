@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.pressplay" name="[COLOR gold]PressPlay Repository[/COLOR]" version="1.0.1" provider-name="PressPlay">
+    <extension point="xbmc.addon.repository" name="[COLOR gold]PressPlay Repository[/COLOR]">
+    <dir>
+        <info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+        <checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+    </dir>
+        <info compressed="false">https://raw.githubusercontent.com/pressplaykodi/repository.pressplay/main/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/pressplaykodi/repository.pressplay/main/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/pressplaykodi/repository.pressplay/main/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Next Generation Addons for Kodi</summary>
+        <description>Working Exodus Fork and Beyond</description>
+        <platform>all</platform>
+    </extension>
+</addon>

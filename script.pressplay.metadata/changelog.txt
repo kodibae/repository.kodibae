@@ -1,0 +1,2 @@
+[B][COLOR gold]v1.0.0[/COLOR][/B]
+- Public release

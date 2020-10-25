@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.pressplay" name="[COLOR pink]PressPlay[/COLOR]" provider-name="PressPlay" version="1.0.0">
+    <requires>
+        <!--<import addon="xbmc.python" version="2.20.0" />-->
+        <import addon="script.pressplay.artwork" />
+        <import addon="script.pressplay.metadata" />
+        <import addon="repository.pressplay" />
+        <import addon="script.module.urlresolver" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.beautifulsoup4" />
+        <import addon="script.module.playscrapers" />
+        <import addon="script.module.six" />
+        <import addon="script.module.simplejson" />
+        <import addon="script.module.metahandler" optional="true" />
+        <import addon="script.module.exoscrapers" optional="true" />
+        <import addon="script.module.orion" optional="true" />
+        <import addon="plugin.video.youtube" optional="true" />
+    </requires>
+    <extension library="pressplay.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension library="service.py" point="xbmc.service" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <summary lang="en_GB">PressPlay</summary>
+        <description lang="en_GB">Multi-source and multi-scraper package add-on. A basic scraper pack is provided but also supports Playscrapers, and native Orion integration.[CR][CR]The author does not host any of the content in this add-on and takes no responsibility for content found.</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <forum />
+        <website />
+        <source />
+        <disclaimer lang="en_GB">The author of this add-on does not host any of the content which is found and has no affiliation with any of the content providers. This add-on simply searches websites for content. Use at your own risk!</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <news>
+- See Changelog on Tools menu
+        </news>
+    </extension>
+</addon>

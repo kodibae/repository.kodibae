@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.pressplay.metadata" version="1.0.0" name="PressPlay Metadata" provider-name="PressPlay">
+	<requires>
+		<!--<import addon="xbmc.python" version="2.19.0"/>-->
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the PressPlay Addon</summary>
+		<description>Metadata for PressPlay are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>

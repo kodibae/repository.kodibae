@@ -52,6 +52,47 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.pressplay" name="[COLOR pink]PressPlay[/COLOR]" provider-name="PressPlay" version="1.0.0">
+    <requires>
+        <!--<import addon="xbmc.python" version="2.20.0" />-->
+        <import addon="script.pressplay.artwork" />
+        <import addon="script.pressplay.metadata" />
+        <import addon="repository.pressplay" />
+        <import addon="script.module.urlresolver" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.beautifulsoup4" />
+        <import addon="script.module.playscrapers" />
+        <import addon="script.module.six" />
+        <import addon="script.module.simplejson" />
+        <import addon="script.module.metahandler" optional="true" />
+        <import addon="script.module.exoscrapers" optional="true" />
+        <import addon="script.module.orion" optional="true" />
+        <import addon="plugin.video.youtube" optional="true" />
+    </requires>
+    <extension library="pressplay.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension library="service.py" point="xbmc.service" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <summary lang="en_GB">PressPlay</summary>
+        <description lang="en_GB">Multi-source and multi-scraper package add-on. A basic scraper pack is provided but also supports Playscrapers, and native Orion integration.[CR][CR]The author does not host any of the content in this add-on and takes no responsibility for content found.</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <forum />
+        <website />
+        <source />
+        <disclaimer lang="en_GB">The author of this add-on does not host any of the content which is found and has no affiliation with any of the content providers. This add-on simply searches websites for content. Use at your own risk!</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <news>
+- See Changelog on Tools menu
+        </news>
+    </extension>
+</addon>
+
 <addon id="plugin.audio.mp3streams" name="MP3 Streams" version="2019.09.30" provider-name="Bugatsinho">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -305,6 +346,36 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<description>Metadata for Exodus are maintained separately to make distribution of the the addon itself easier/faster.</description>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="script.pressplay.metadata" version="1.0.0" name="PressPlay Metadata" provider-name="PressPlay">
+	<requires>
+		<!--<import addon="xbmc.python" version="2.19.0"/>-->
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the PressPlay Addon</summary>
+		<description>Metadata for PressPlay are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.pressplay" name="[COLOR gold]PressPlay Repository[/COLOR]" version="1.0.1" provider-name="PressPlay">
+    <extension point="xbmc.addon.repository" name="[COLOR gold]PressPlay Repository[/COLOR]">
+    <dir>
+        <info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+        <checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+    </dir>
+        <info compressed="false">https://raw.githubusercontent.com/pressplaykodi/repository.pressplay/main/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/pressplaykodi/repository.pressplay/main/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/pressplaykodi/repository.pressplay/main/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Next Generation Addons for Kodi</summary>
+        <description>Working Exodus Fork and Beyond</description>
+        <platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="plugin.video.hummingbird" version="0.5.0" name="Hummingbird" provider-name="Wilson Magic">
@@ -1068,7 +1139,7 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, SubDB, Subscene, Addic7ed
     </extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="8.6.8" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="9.0.0" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.exodus" />
@@ -1077,6 +1148,7 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, SubDB, Subscene, Addic7ed
 		<import addon="script.module.urlresolver" />
 		<import addon="script.module.requests" />
 		<import addon="script.module.exoscrapers" />
+		<import addon="plugin.video.pressplay" />
 		<import addon="script.module.metahandler" version="1.0.0" />
 		<import addon="repository.kodibae" />
 	</requires>
@@ -1104,6 +1176,18 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, SubDB, Subscene, Addic7ed
 	</extension>
 </addon>
 
+<addon id="script.pressplay.artwork" version="1.0.0" name="PressPlay Artwork" provider-name="PressPlay">
+	<requires>
+		<!--<import addon="xbmc.python" version="2.19.0"/>-->
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the PressPlay Addon</summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.nixgates" name="Nixgates Repo" version="1.0.0" provider-name="Nixgates">
 	<extension point="xbmc.addon.repository" name="Nixgates Repo">
 		<info compressed="false">https://raw.githubusercontent.com/nixgates/nixgates/master/packages/addons.xml</info>
@@ -1116,6 +1200,33 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, SubDB, Subscene, Addic7ed
 		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="script.module.playscrapers" name="PlayScrapers Module" version="1.0.0" provider-name="PressPlay">
+    <requires>
+        <!--<import addon="xbmc.python" version="2.20.0" />-->
+        <import addon="script.module.beautifulsoup4" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.module.simplejson" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="lib/default.py">
+        <provides>executable</provides>
+    </extension>
+        <extension point="xbmc.addon.metadata">
+            <platform>all</platform>
+            <summary lang="en">PlayScrapers Module</summary>
+            <description>Scrape common video host for URL's to be playable in Kodi, simplifying addon development of video plugins requiring multi video hosts.</description>
+                <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart></fanart>
+    </assets>
+    <news></news>
+    </extension>
 </addon>
 
 <addon id="plugin.video.wonderfulsubs" name="WonderfulSubs : Anime Subs &amp; Dubs" provider-name="DxCx" version="0.0.29">
