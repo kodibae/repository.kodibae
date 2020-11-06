@@ -1,3 +1,48 @@
+Version 5.1.12 (November 2, 2020)
+- Code Base Changes:
+    - captcha lib
+- Resolvers Added:
+    - elupload
+- Resolvers Fixed/Updated:
+    - mp4upload
+    - vidia
+    - gdrive
+    - vidoza
+- Resolvers Removed
+    - none
+- Languages Added/Updated
+    - none
+
+Version 5.1.11 (October 21, 2020)
+- Code Base Changes:
+    - xbmc.translatePath deprecated in Matrix
+- Resolvers Added:
+    - newtube
+- Resolvers Fixed/Updated:
+    - gounlimited
+    - upstream
+    - streamtape
+    - fembed
+- Resolvers Removed
+    - none
+- Languages Added/Updated
+    - none
+
+Version 5.1.10 (October 5, 2020)
+- Code Base Changes:
+    - lognotice deprecated in Matrix
+- Resolvers Added:
+    - none
+- Resolvers Fixed/Updated:
+    - linksnappy
+    - gounlimited
+    - jetload
+    - upstream
+- Resolvers Removed
+    - none
+- Languages Added/Updated
+    - none
+
 Version 5.1.9 (September 21, 2020)
 - Code Base Changes:
     - add referer to final url for embeds without referer

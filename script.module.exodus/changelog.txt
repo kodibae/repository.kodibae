@@ -1,3 +1,0 @@
-Exodus Module Changelog:
-3.2.4
-- Updated TV networks

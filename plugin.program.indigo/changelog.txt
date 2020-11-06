@@ -1,3 +1,6 @@
+V4.0.19
+- Version Bump to Fix Disabling
+
 V4.0.18
 - Minor Fixes for kodi newer versions
 - Enhancements to Malicious Script Blocker

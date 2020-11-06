@@ -1,0 +1,1791 @@
+[B]Version 1.8.4[/B]
+
+- Updated: eporner
+
+[B]Version 1.8.3[/B]
+
+- Updated: bitporno
+
+[B]Version 1.8.2[/B]
+
+- Updated: pornhub
+- Updated: pornmaki 
+- Updated: pornomovies
+- Updated: pornoxo
+- Updated: sexu
+- Updated: xvideos
+- Updated: vporn
+- Updated: stileproject
+- Updated: spankingtube
+- Updated: spankbang
+- Removed: spankwire
+- Removed: slutload
+
+[B]Version 1.8.1[/B]
+
+- Updated: tnaflix
+- Updated: xxxtubdedesi
+
+[B]Version 1.7.248[/B]
+
+- Updated: youporn
+- Updated: xruniversity
+- Updated: trannyone
+- Updated: tukif
+- Updated: Encoding handling
+
+[B]Version 1.7.247[/B]
+
+- Updated: ashemaletube
+- Updated: pornhd
+- Updated: cliphunter
+- Updated: desihdx
+- Updated: desivdo
+- Updated: desixnxx
+- Updated: doodhwali
+- Updated: Cookie handling
+
+[B]Version 1.7.246[/B]
+
+- Updated: Use kodi-six
+
+[B]Version 1.7.245[/B]
+
+- Removed: fapdu
+- Updated: eporner
+- Fixed: videolist
+
+[B]Version 1.7.244[/B]
+
+- Updated: pornhub
+- Fixed: videolist
+
+[B]Version 1.7.243[/B]
+
+- Updated: eporner
+- Fixed: videolist
+- Updated: pornhd
+- Fixed: videolist
+
+[B]Version 1.7.242[/B]
+
+- Updated: motherless
+- Fixed: videolist
+- Updated: analdin
+- Fixed: videolist
+
+[B]Version 1.7.241[/B]
+
+- Updated: motherless
+- Fixed: videolist
+- Updated: celebsnude
+- Fixed: pagination
+- Updated: xhamster
+- Fixed: catcher
+
+[B]Version 1.7.240[/B]
+
+- Updated: youporn
+- Fixed: catcher
+- Fixed: url
+- Updated: spankbang
+- Fixed: catcher
+
+[B]Version 1.7.239[/B]
+
+- Update to python3
+
+[B]Version 1.7.238[/B]
+
+- Update exception syntax
+
+[B]Version 1.7.237[/B]
+
+- Updated: spankbang
+- Fixed: catcher
+
+[B]Version 1.7.236[/B]
+
+- Updated: extremetube
+- Fixed: url
+- Updated: moviefap
+- Fixed: catcher
+
+[B]Version 1.7.235[/B]
+
+- Updated: indiansexmovies
+- Fixed: catcher
+
+[B]Version 1.7.234[/B]
+
+- Updated: xxxtubdedesi
+- Fixed: catcher
+
+[B]Version 1.7.233[/B]
+
+- Updated: spankingtube
+- Fixed: categories
+- Fixed: search
+- Updated: sunporno
+- Fixed: url
+- Fixed: categories
+- Fixed: sorting
+- Updated: vporn
+- Fixed: categories
+- Updated: xxxtubdedesi
+- Fixed: catcher
+- Fixed: categories
+- Fixed: next
+- Updated: youporn
+- Fixed: url list
+- Fixed: sorting
+
+[B]Version 1.7.232[/B]
+
+- Updated: PlusOne8
+- Fixed: url listing
+- Fixed: categories
+- Fixed: sorting
+
+[B]Version 1.7.231[/B]
+
+- Updated: DoodhWali
+- Fixed: url listing
+- Updated: Extremetube
+- Fixed: icons
+- Updated: Analdin
+- Fixed: fallback url
+- Updated: kissjav
+- Fixed: catcher
+- Updated: mofosex
+- Fixed: catcher
+- Fixed: categories
+- Fixed: search
+
+[B]Version 1.7.230[/B]
+
+- Deleted: Vmasala
+
+[B]Version 1.7.229[/B]
+
+- Updated: Pornhub
+- Fixed: incomplete read error
+
+[B]Version 1.7.228[/B]
+
+- Updated: DesiHDx
+- Fixed: url listing
+
+[B]Version 1.7.226[/B]
+
+- Updated: tukif
+- Fixed: url listing
+- Fixed: catcher
+- Updated: Redtube
+- Fixed: url listing
+
+[B]Version 1.7.225[/B]
+
+- Added: XXXTubeDesi
+
+[B]Version 1.7.224[/B]
+
+- Updated: celebsnude
+- Fixed: url list
+- Added: DesiHDx
+- Added: NewDesiX
+- Added: XRUniversity
+
+[B]Version 1.7.223[/B]
+
+- Updated: pornoxo
+- Fixed: url list
+- Updated: porntrex
+- Fixed: icons
+
+[B]Version 1.7.222[/B]
+
+- Updated: porn.com
+- Fixed: url list
+- Fixed: catcher
+- Updated: kissjav
+- Fixed: Next
+- Fixed: catcher
+- Updated: Sexu
+- Fixed: url list
+- Removed: Fux
+
+[B]Version 1.7.221[/B]
+
+- Updated: pornhub
+- Fixed: url list
+
+[B]Version 1.7.220[/B]
+
+- Updated: spankbang
+- Fixed: catcher
+- Update: smutindia
+- Fixed: catcher
+- Added: Porndoe
+- Added: Cliphunter
+- Added: DoodhWali
+- Added: perfectgirls
+
+[B]Version 1.7.219[/B]
+
+- Updated: moviefap
+- Fixed: catcher
+- Fixed: video listing
+
+[B]Version 1.7.218[/B]
+
+- Updated: empflix
+- Fixed: catcher
+- Added: thumbzilla
+
+[B]Version 1.7.217[/B]
+- Updated: porntrex
+- Fixed: icons
+- Updated: xvideos
+- Fixed: catcher
+
+[B]Version 1.7.216[/B]
+
+- Updated: pornomovies
+- Fixed: video listing
+- Updated: hqporner
+- Fixed: catcher
+- Add header support for icons
+
+[B]Version 1.7.215[/B]
+
+- Added: trannyone
+- Updated: porntrex
+- Fixed: video listing
+- Updated: xvideos
+- Fixed: categories
+
+[B]Version 1.7.214[/B]
+
+- Updated: ashemaletube
+- Fixed: video listing
+
+[B]Version 1.7.213[/B]
+
+- Added: ashemaletube
+- Added: desivdo
+- Added: kissjav
+
+[B]Version 1.7.212[/B]
+
+- Added: Spankbang
+- Updated: porntrex
+- Fixed: video list
+
+[B]Version 1.7.211[/B]
+
+- Updated: porntrex
+- Updated: hqporner
+- Fixed: video regex
+
+[B]Version 1.7.210[/B]
+
+- Updated: porntrex
+- Fixed: video listing
+
+[B]Version 1.7.209[/B]
+
+- Added: hqporner
+
+[B]Version 1.7.208[/B]
+
+- Updated: porntrex
+- Fixed: video listing
+- Fixed: icon
+
+[B]Version 1.7.207[/B]
+
+- Updated: porntrex
+- Fixed: video listing
+
+[B]Version 1.7.206[/B]
+
+- Added: plusone8
+- Added: javwhores
+- Added: indianmasalasex
+- Updated: porntrex
+- Fixed: next
+- Fixed: video listing
+- Updated: slutload
+- Fixed: url
+
+[B]Version 1.7.205[/B]
+
+- Removed: indianpornvideos
+- Removed: jav789
+- Removed: javbuz
+- Removed: javhihi
+- Removed: letfap
+- Removed: nostami
+- Updated: bitporno
+- Fixed: categories
+- Fixed: search
+- Updated: xhamster
+- Fixed: catcher
+- Updated: ahme
+- Updated: pornoxo
+- Updated: spankwire
+- Updated: analdin
+- Fixed: catcher
+- Fixed: categories
+- Updated: sexu
+- Fixed: catcher
+- Updated: vporn
+- Fixed: catcher
+
+[B]Version 1.7.204[/B]
+
+- Updated: porntrex.com
+- Fixed: icons
+- Fixed: categories
+
+[B]Version 1.7.203[/B]
+
+- Added: porntrex.com
+- Updated: tukif
+- Fixed: catcher
+- Updated: youporn
+- Fixed: categories
+- Updated: eporner
+- Added: HD categories for 2K and 4K
+
+[B]Version 1.7.202[/B]
+
+- Added: rartube.com
+- Added: nostami.com
+
+[B]Version 1.7.201[/B]
+
+- Updated: analdin
+- Added: Next for search
+- Added: Next for categories
+
+[B]Version 1.7.199[/B]
+
+- Updated: sunporno
+- Fixed: video listing
+
+[B]Version 1.7.199[/B]
+
+- Updated: analdin
+- Added: Next
+
+[B]Version 1.7.198[/B]
+
+- Added: analdin
+- Added: plugin logging when kodi debug logging is off
+
+[B]Version 1.7.197[/B]
+
+- Updated: clipsage
+- Updated: desixnxx
+- Updated: porn300
+- Updated: pornomovies
+- Updated: pornoxo
+- Updated: redtube
+- Updated: slutload
+- Updated: spankwire
+- Updated: vmasala
+- Updated: stileproject
+- Updated: sunporno
+- Updated: xvideos
+
+[B]Version 1.7.196[/B]
+
+- Updated: videodevil
+- Fixed: quoting
+
+[B]Version 1.7.195[/B]
+
+- Updated: eporner
+- Fixed: next button
+- Updated: javhihi
+- Fixed: categories
+- Fixed: catcher
+- Added: jav789
+- Added: javbuz
+- Added: letfap
+
+[B]Version 1.7.194[/B]
+
+- Updated: porn300
+- Fixed: videolist
+- Updated: desixnxx
+- Fixed: videolist
+- Updated: vmasala
+- Fixed: catcher
+- Added: referrer for icons
+- Updated: javhihi
+- Fixed: sorting
+
+[B]Version 1.7.193[/B]
+
+- Updated: spankwire
+- Fixed: videolist
+- Updated: vporn
+- Fixed: videolist
+- Updated: sexu
+- Fixed: videolist
+- Fixed: catcher
+
+[B]Version 1.7.192[/B]
+
+- Updated: porn.com
+- Fixed: videolist
+
+[B]Version 1.7.191[/B]
+
+- Removed: faapy
+- Removed: indiangilma
+
+[B]Version 1.7.190[/B]
+
+- Updated: motherless
+- Fixed: videolist
+- Updated: pornhub
+- Fixed: videolist
+- Removed: faapy
+- Removed: indiangilma
+
+[B]Version 1.7.189[/B]
+
+- Updated: xhamster
+- Fixed: next button
+- Fixed: gay section
+- Fixed: shemale section
+- Updated: xvideos
+- Fixed: next button
+
+[B]Version 1.7.188[/B]
+
+- Updated: pornhub
+- Fixed: next button
+
+[B]Version 1.7.187[/B]
+
+- Updated: xhamster
+- Fixed: video list
+- Fixed: categories
+- Updated: redtube
+- Fixed: video list
+
+[B]Version 1.7.186[/B]
+
+- Updated: stileproject
+- Fixed: catcher
+- Added: javhihi
+
+[B]Version 1.7.185[/B]
+
+- Updated: xhamster
+- Fixed: catcher
+
+[B]Version 1.7.184[/B]
+
+- Updated: pornhub
+- Fixed: categories
+- Updated: spankingtube
+- Fixed: catcher
+
+[B]Version 1.7.183[/B]
+
+- Updated: pornhub
+- Fixed: categories
+
+[B]Version 1.7.182[/B]
+
+- Updated: pornhub
+- Fixed: catcher
+
+[B]Version 1.7.181[/B]
+
+- Updated: vmasala
+- Updated: desixnxx
+
+[B]Version 1.7.180[/B]
+
+- Updated: pornomovies
+- Fixed: catcher
+- Updated: pornoxo
+- Fixed: catcher
+
+[B]Version 1.7.179[/B]
+
+- Updated: bitporno
+- Fixed: start page
+
+[B]Version 1.7.178[/B]
+
+- Updated: bitporno
+- Fixed: catcher
+- Fixed: start page
+
+[B]Version 1.7.177[/B]
+
+- Updated: tukif
+- Fixed: catcher
+
+[B]Version 1.7.176[/B]
+
+- Added: CelebsNudeWorld
+- Updated: bitporno
+- Updated: smutindia
+- Updated: stileproject
+
+[B]Version 1.7.175[/B]
+
+- Added: clipsage
+- Updated: indiangilma
+- Updated: vmasala
+- Updated: yuvutu
+- Updated: xvideos
+- Updated: xhamster
+- Updated: spankwire
+- Updated: pornoxo
+- Updated: pornomovies
+- Updated: pornburst
+- Updated: porn.com
+
+[B]Version 1.7.174[/B]
+
+- Updated: extremetube
+- Fixed: video list
+
+[B]Version 1.7.173[/B]
+
+- Updated: bitporno
+- Fixed: video list
+
+[B]Version 1.7.172[/B]
+
+- Fixed: fux
+- Fixed: extremetube
+- Fixed: faapy
+- Fixed: eporner
+- Fixed: ahme
+- Added: prefix action
+
+[B]Version 1.7.171[/B]
+
+- Added: fux.com (contrib)
+
+[B]Version 1.7.170[/B]
+
+- Fixed: removed beep on "no video found" notification
+
+[B]Version 1.7.169[/B]
+
+- Added: "no video found" notification
+
+[B]Version 1.7.168[/B]
+
+- Added: smutindia
+- Fixed: tnaflix
+- Fixed: sunporno
+- Fixed: vmasala
+- Added: porn300
+- Fixed: ahme
+
+[B]Version 1.7.167[/B]
+
+- Multiple fixes
+
+[B]Version 1.7.166[/B]
+
+- GFVideos Fix
+- Hentaigasm Fixes
+- Mofosex fixes
+- Moviefap Enhancement
+- Pornhub minor fixes
+- Fix Fapdu
+
+[B]Version 1.7.165[/B]
+
+- Huge fix
+
+[B]Version 1.7.164[/B]
+
+- Fixed: vporn
+
+[B]Version 1.7.163[/B]
+
+- Added: Spanktube
+
+[B]Version 1.7.162[/B]
+
+- Updated: pornhub
+- Fixed: icon
+
+[B]Version 1.7.161[/B]
+
+- Updated: bitporno
+- Fixed: Name
+
+[B]Version 1.7.160[/B]
+
+- Updated: pornhub
+- Fixed: Next button
+
+[B]Version 1.7.159[/B]
+
+- Updated: extremetube
+- Fixed: video list
+- Updated: empflix
+- Fixed: video list
+
+[B]Version 1.7.158[/B]
+
+- Updated: pornhub
+- Fixed: catcher
+
+[B]Version 1.7.157[/B]
+
+- Updated: extremetube
+- Fixed: catcher
+- Fixed: video list
+- Updated: pornhd
+- Fixed catcher
+- Updated: redtube
+- Fixed: catcher
+- Fixed: video list
+
+[B]Version 1.7.156[/B]
+
+- Updated: pornhub
+- Fixed: categories
+
+[B]Version 1.7.155[/B]
+
+- Updated: pornhub
+- Fixed: quality
+
+[B]Version 1.7.154[/B]
+
+- Updated: pornhub
+- Fixed: quality
+
+[B]Version 1.7.152[/B]
+
+- Updated: pornhub
+- Fixed: catcher
+
+[B]Version 1.7.151[/B]
+
+- Updated: bitporno
+- Fixed: catcher
+
+[B]Version 1.7.150[/B]
+
+- Updated: sunporno
+- Fixed: catcher
+
+[B]Version 1.7.149[/B]
+
+- Updated: pornburst
+- Fixed: catcher
+
+[B]Version 1.7.148[/B]
+
+- Updated: bitporno
+- Fixed: video list
+
+[B]Version 1.7.147[/B]
+
+- Added: indiangilma
+- Added: vmasala
+
+[B]Version 1.7.146[/B]
+
+- Updated: xhamster
+- Fixed: categories
+
+[B]Version 1.7.144[/B]
+
+- Added: bitporno.sx
+
+[B]Version 1.7.143[/B]
+
+- Updated: xhamster
+- Fixed: categories
+
+[B]Version 1.7.142[/B]
+
+- Updated: xvideos
+- Fixed: url parsing
+- Updated: pornburst.xxx
+- Fixed: catcher
+- Fixed: categories
+- Updated: pornoxo
+- Fixed: url parsing
+
+[B]Version 1.7.141[/B]
+
+- Updated: eporner
+- Fixed: catcher
+
+[B]Version 1.7.140[/B]
+
+- Updated: empflix
+- Fixed: catcher
+
+[B]Version 1.7.139[/B]
+
+- Updated: eporner
+- Fixed: catcher
+
+[B]Version 1.7.138[/B]
+
+- Merged: Fix spankwire in videodevil (next and categories)
+- Merged: Fix extremetube in videodevil (next and categories)
+
+[B]Version 1.7.137[/B]
+
+- Merged: Fix xvideos
+
+[B]Version 1.7.136[/B]
+
+- Merged: site enabling feature
+
+[B]Version 1.7.135[/B]
+
+- Updated: eporner
+- Fixed: video list
+- Fixed: catcher
+- Updated: porn.com
+- Fixed: video list
+
+[B]Version 1.7.134[/B]
+
+- Updated: vporn
+- Fixed: search
+
+[B]Version 1.7.133[/B]
+
+- Updated: tnaflix
+- Fixed: video list
+- Fixed: catcher
+- Fixed: categories
+- Updated: xhamster
+- Fixed: video list
+
+[B]Version 1.7.132[/B]
+
+- Updated: tukif
+- Fixed: video play 
+
+[B]Version 1.7.131[/B]
+
+- Updated: faapy
+- Fixed: video list
+- Deleted: jacquietmicheltv
+- Updated: sexu
+- Fixed: video list
+- Fixed: catcher
+
+[B]Version 1.7.130[/B]
+
+- Updated: youporn
+- Fixed: video list
+
+[B]Version 1.7.129[/B]
+
+- Updated: motherless
+- Fixed: video list
+- Updated: pornomovies
+- Fixed: catcher
+
+[B]Version 1.7.128[/B]
+
+- Updated: gfvideos
+- Fixed: video list
+- Updated: motherless
+- Fixed: video list
+
+
+[B]Version 1.7.127[/B]
+
+- Updated: eporner
+- Fixed: catcher
+
+
+[B]Version 1.7.126[/B]
+
+- Updated: xhamster.com
+- Add gay and shemale categories
+
+
+[B]Version 1.7.125[/B]
+
+- Updated: xhamster.com
+- Fixed: categories
+
+
+[B]Version 1.7.124[/B]
+
+- Update for Jarvis: Remove ability to select player, this deprecated in
+Jarvis
+
+
+[B]Version 1.7.123[/B]
+
+- Updated: xhamster.com
+- Fixed: videolist
+- Updated: empflix
+- Fixed: catcher
+- Updated: youporn
+- Fixed: catcher
+- Updated: pornomovies
+- Fixed: videolist
+- Fixed: catcher
+- Updated: sunporno
+- Fixed: videolist
+- Removed: mastishare
+- Removed: moviesand
+
+
+[B]Version 1.7.122[/B]
+
+- Updated: youporn.com
+- Fixed: videolist
+
+[B]Version 1.7.121[/B]
+
+- Updated: porn.com
+- Fixed: videolist
+- Updated: pornburst.xxx
+- Fixed: videolist
+- Fixed: catcher
+- Updated: pornoxo
+- Fixed: catcher
+
+[B]Version 1.7.120[/B]
+
+- Updated: motherless
+- Fixed: groups
+
+[B]Version 1.7.119[/B]
+
+- Updated: jacquietmicheltv
+- Fixed: videolist
+- Fixed: catcher
+
+[B]Version 1.7.118[/B]
+
+- Updated: extremetube
+- Fixed: catcher
+- Updated: motherless
+- Fixed: videolist
+- Fixed: catcher
+- Updated: youporn
+- Fixed: videolist
+- Fixed: catcher
+
+[B]Version 1.7.117[/B]
+
+- Updated: spankwire
+- Fixed: catcher
+- Fixed: video regex
+
+[B]Version 1.7.116[/B]
+
+- Updated: eporner
+- Fixed: catcher
+- Deleted: porndig
+- Updated: pornhd
+- Fixed: video regex
+- Updated: pornhub
+- Fixed: catcher
+- Updated: xhamster
+- Fixed: catcher
+- Updated: pornoxo
+- Fixed: video regex
+
+[B]Version 1.7.115[/B]
+
+- Updated: pornhub
+- Fixed: catcher
+
+[B]Version 1.7.114[/B]
+
+- Updated: pornhub
+- Added: better quality video
+
+[B]Version 1.7.113[/B]
+
+- Updated: pornhub
+- Added: channels
+- Added: playlists
+- Added: pornstars
+
+[B]Version 1.7.112[/B]
+
+- Updated: mofosex
+- Fixed: video listing
+
+[B]Version 1.7.111[/B]
+
+- Updated: pornhub
+- Fixed: category listing
+- Updated: tukif
+- Fixed: catcher
+
+[B]Version 1.7.110[/B]
+
+- Updated: empflix
+- Fixed: logo
+- Removed: freeHDporn
+- Updated: porn.com
+- Fixed: catcher
+- Updated: videodevil
+- Added: quote ext_action and action
+- Updated: porndig
+- Fixed: catcher
+- Updated: sexu
+- Fixed: catcher
+
+[B]Version 1.7.109[/B]
+
+- Updated: xhamster
+- Fixed next button
+
+[B]Version 1.7.108[/B]
+
+- Updated: empflix
+- Updated: catcher to support multiple quality settings
+
+[B]Version 1.7.107[/B]
+
+- Updated: empflix
+- Fixed: video regex
+- Fixed: catcher
+
+[B]Version 1.7.106[/B]
+
+- Updated: motherless
+- Fixed: video, galleries and groups regexes
+- Added: pornmaki
+- Added: pornburst
+- Added: sexu
+- Added: vporn
+- Added: pornhd
+- Added: faapy
+
+[B]Version 1.7.105[/B]
+
+- Updated: videodevil
+- Fixed: ValueError: timestamp out of range for platform time_t
+
+[B]Version 1.7.104[/B]
+
+- Updated: slutload
+- Fixed: catcher
+- Updated: sunporno
+- Fixed: video regex
+- Removed: timtube
+- Updated: tnaflix
+- Fixed: catcher
+- Updated: tukif
+- Fixed: video regex
+- Fixed: catcher
+
+[B]Version 1.7.103[/B]
+
+- Updated: porndig
+- Fixed: video regex
+- Updated: pornomovies
+- Fixed: video regex
+
+[B]Version 1.7.102[/B]
+
+- Updated: pornomovies
+- Fixed: video regex
+- Removed results video listing (doesnt exist anymore)
+- Added sorting
+- Fixed categories
+- Fixed subcategories
+- Fixed next button
+- Updated mofosex
+- Fixed: video regex
+- Added: porn.com
+
+[B]Version 1.7.101[/B]
+
+- Updated: Ah-Me
+- Fixed: catcher
+- Updated: extremetube
+- Fixed: video listing
+- Fixed: catcher
+- Updated: freeHDporn
+- Fixed: video listing
+
+[B]Version 1.7.100[/B]
+
+- Updated: sunporno
+- Fixed: video listing
+- Fixed: catcher
+- Updated: xvideos
+- Fixed: video listing
+
+[B]Version 1.7.99[/B]
+
+- Updated: motherless
+- Added: sorting
+- Added: groups
+- Added: galleries
+- Added: Yuvutu
+- Added: Hentaigasm
+- Added: Mastishare
+
+[B]Version 1.7.98[/B]
+
+- Updated: moviesand
+- Fixed: catcher
+- Updated: tnaflix
+- Fixed: catcher
+
+[B]Version 1.7.97[/B]
+
+- Updated: ero-erodouga
+- Fixed: Next button
+
+[B]Version 1.7.96[/B]
+
+- Added: jacquietmicheltv
+
+[B]Version 1.7.95[/B]
+
+- Added: tukif
+- Updated: porndig
+- Fixed: video listing
+
+[B]Version 1.7.94[/B]
+
+- Added: porndig
+
+[B]Version 1.7.93[/B]
+
+- Updated: youporn
+- Updated: spankwire
+- Updated: motherless
+
+[B]Version 1.7.92[/B]
+
+- Updated: hardsextube
+- Fixed: video regex
+- Fixed: catcher
+- Updated: spankwire
+- Fixed: video regex
+- Added: HD
+- Updated: xhamster
+- Fixed: catcher
+- Removed: pornotube
+
+[B]Version 1.7.91[/B]
+
+- Updated: extremetube
+- Updated: redtube
+
+[B]Version 1.7.90[/B]
+
+- Pull in some contributed fixes
+- Updated: xvideos
+- Updated: extremetube
+- Updated: freehdporn
+- Updated: eporner
+
+[B]Version 1.7.89[/B]
+
+- Added portuguese translation
+- Updated: moviesand
+- Fixed: search
+- Updated: ero-erodouga
+- Fixed: search
+- Updated: fapdu
+- Added: search
+- Updated: gfvideos
+- Added: search
+- Updated: hardsextube
+- Fixed: categories
+- Added: search
+- Updated: slutload
+- Fixed: search
+- Updated: sunporno
+- Fixed: video regex
+- Fixed: categories
+- Fixed: search
+- Updated: extremetube
+- Fixed: categories
+- Fixed: video regex
+- Fixed: search
+
+[B]Version 1.7.88[/B]
+
+- Updated: videodevil.py
+- Cleanup and refactoring
+- Updated: motherless
+- Fixed: catcher
+- Updated: sunporno
+- Fixed: video regex
+- Updated: youporn
+- Fixed: video regex
+
+[B]Version 1.7.87[/B]
+
+- Updated: videodevil.py
+- Updated: sunporno
+- Fixed: video regex
+
+[B]Version 1.7.86[/B]
+
+- Updated: pornomovies
+- Fixed: catcher
+- Updated: pornoxo
+- Fixed: video regex
+- Updated: timtube
+- Fixed: catcher
+
+[B]Version 1.7.85[/B]
+
+- Updated: pornhub
+- Fixed: catcher
+
+[B]Version 1.7.84[/B]
+
+- Updated: moviesand
+- Fixed: catcher
+
+[B]Version 1.7.83[/B]
+
+- Updated: freehdporn
+- Fixed: video regex
+- Fixed: catcher
+
+[B]Version 1.7.82[/B]
+
+- Updated: hardsextube
+- Fixed: video regex
+- Updated: slutload
+- Fixed: video regex
+- Updated: timtube
+- Fixed: video regex
+- Fixed: catcher
+
+[B]Version 1.7.81[/B]
+
+- Updated: empflix
+- Fixed: video regex
+- Updated: freehdporn
+- Fixed: video regex
+- Fixed: catcher
+
+[B]Version 1.7.80[/B]
+
+- Updated: pornhub
+- Fixed: video regex
+
+[B]Version 1.7.79[/B]
+
+- Updated: tnaflix
+- Fixed: video regex
+- Removed: yuvutu
+- Removed: boysfood
+- Removed: shufuni
+- Removed: keezmovies
+
+[B]Version 1.7.78[/B]
+
+- Updated: xhamster
+- Fixed: catcher
+
+[B]Version 1.7.77[/B]
+
+- Removed: 4tube
+- Removed: fucktube
+- Updated: ero-erodouga
+- Fixed: video listing
+- Updated: fapdu
+- Fixed: next button
+- Updated: hardsextube
+- Fixed: video listing
+- Fixed: logo
+- Updated: slutload
+- Fixed: video listing
+- Fixed: catcher
+- Updated: sunporno
+- Fixed: video listing
+- Fixed: catcher
+
+[B]Version 1.7.76[/B]
+
+- Updated: tnaflix
+- Fixed: video listing
+- Fixed: categories
+
+[B]Version 1.7.75[/B]
+
+- Updated: fucktube
+- Fixed: next button
+
+[B]Version 1.7.74[/B]
+
+- Updated: fucktube
+- Fixed: video listing
+- Fixed: catcher
+- Fixed: categories
+- Updated: pornhub
+- Fixed: video listing
+
+[B]Version 1.7.73[/B]
+
+- Updated: eporner
+- Fixed: catcher
+
+[B]Version 1.7.72[/B]
+
+- Updated: python api version bump for Gotham
+
+[B]Version 1.7.71[/B]
+
+- Updated: eporner
+- Fixed: catcher
+
+[B]Version 1.7.68[/B]
+
+- Cleaned up the code
+
+[B]Version 1.7.67[/B]
+
+- Updated: extremetube
+- Fixed: video listing
+- Cleaned up the code
+
+[B]Version 1.7.66[/B]
+
+- Updated: freeHDporn
+- Fixed: video listing
+- Fixed: category listing
+- Fixed: next button
+
+[B]Version 1.7.65[/B]
+
+- Added: freeHDporn
+- Updated: eporner
+- Added: HD video quality playback
+
+[B]Version 1.7.64[/B]
+
+- Updated: eporner
+- Fixed: categories
+
+[B]Version 1.7.63[/B]
+
+- Updated: fapdu
+- Fixed: video listing
+- Fixed: catcher
+- Updated: fucktube
+- Fixed: video listing
+- Fixed: catcher
+- Updated: spankwire
+- Fixed: catcher
+- Updated: youporn
+- Fixed: catcher
+- Updated: yuvutu
+- Fixed: video url
+
+[B]Version 1.7.62[/B]
+
+- Updated: motherless
+- Fixed: url
+
+[B]Version 1.7.61[/B]
+
+- Updated: 4tube
+- Fixed: catcher
+- Removed: youjizz -> install the addon if you want it
+
+[B]Version 1.7.60[/B]
+
+- Updated: motherless
+- Fixed: video listing
+
+[B]Version 1.7.59[/B]
+
+- Updated: motherless
+- Fixed: next button
+- Updated: xhamster
+- Fixed: next button
+
+[B]Version 1.7.58[/B]
+
+- Removed: book-mark.net
+- Updated: motherless
+- Fixed: video listing
+- Updated: pornomovies
+- Fixed: video listing
+- Updated: slutload
+- Fixed: catcher
+- Updated: yuvutu
+- Fixed: video listing
+
+[B]Version 1.7.57[/B]
+
+- Refactored code
+
+[B]Version 1.7.56[/B]
+
+- Updated: eporner
+- Fixed: video listing
+- Updated: girlfriendvideos
+- Fixed: catcher
+
+[B]Version 1.7.55[/B]
+
+- Updated: xhamster
+- Fixed: categories
+- Fixed: next button
+- Updated: redtube
+- Fixed: next button
+
+[B]Version 1.7.54[/B]
+
+- Updated: hardsextube
+- Fixed: catcher
+- Updated: youjizz
+- Fixed: catcher
+- Updated: pornhub
+- Fixed: catcher
+- Added: empflix
+- Added: slutload
+- Added: tnaflix
+- Added: sunporno
+- Added: ero-erodouga
+
+[B]Version 1.7.53[/B]
+
+- Removed: pornrabbit
+- Removed: youpunish
+- Updated: moviesand
+- Fixed: video listing
+- Fixed: next button
+- Updated: 4tube
+- Fixed: video listing
+
+[B]Version 1.7.52[/B]
+
+- Updated: gfvideos
+- Fixed: video listing
+- Updated: xhamster
+- Fixed: video listing
+- Fixed: catcher
+
+
+[B]Version 1.7.51[/B]
+
+- Updated: ah-me
+- Fixed: video listing
+- Fixed: category listing
+- Updated: eporner
+- Fixed: video listing
+- Updated: extremetube
+- Fixed: video listing
+- Updated: motherless
+- Fixed: video listing
+- Updated: pornomovies
+- Fixed: video listing
+- Updated: pornhd
+- Fixed: catcher
+- Updated: tnaflix
+- Fixed: catcher
+
+
+[B]Version 1.7.50[/B]
+
+- Fix for Frodo v2
+
+
+[B]Version 1.7.45[/B]
+
+- Updated: boysfood
+- Fixed: catcher
+- Reverted Frodo fix it broke some web sites
+- prefix pornhub with zz
+
+
+[B]Version 1.7.44[/B]
+
+- Fix for Frodo
+
+
+[B]Version 1.7.43[/B]
+
+- Updated: Ah-Me
+- Fixed: catcher
+
+
+[B]Version 1.7.42[/B]
+
+- re-enable Pornhub it is not broken
+- Updated: shufuni
+- Fixed: catcher
+- Updated: yuvutu
+- Fixed: video listing
+
+
+[B]Version 1.7.41[/B]
+
+- prefixed broken sites with zz for future removal.
+
+
+[B]Version 1.7.40[/B]
+
+- Updated: fapdu
+- Fixed: video url
+- Updated: xvideos
+- Fixed: added brackets around url
+- Updated: spankwire
+- Fixed: video url
+
+
+[B]Version 1.7.38[/B]
+
+- Cleaned up the code
+- Updated: pornomovies	
+- Fixed: catcher
+- Fixed: video url
+
+
+[B]Version 1.7.37[/B]
+
+- Cleaned up the code
+- Updated: ah-me
+- Fixed: catcher
+- Fixed: video url
+
+
+[B]Version 1.7.36[/B]
+
+- Updated: hardsextube
+- Fixed: catcher
+
+
+[B]Version 1.7.35[/B]
+
+- Updated: yuvutu
+- Fixed: catcher
+- Marked stileproject broken
+
+
+[B]Version 1.7.34[/B]
+
+- Updated: xvideos
+- Fixed: video regex
+- Fixed: catcher
+
+
+[B]Version 1.7.33[/B]
+
+- Updated: fucktube
+- Fixed: Added direct links
+
+
+[B]Version 1.7.32[/B]
+
+- Updated: hardsextube
+- Fixed: url parsing
+
+
+[B]Version 1.7.31[/B]
+
+- Updated: youporn
+- Fixed: video regex
+- Fixed: catcher
+
+
+[B]Version 1.7.30[/B]
+
+- Updated: eporner
+- Fixed: video regex
+- Updated: extremetube
+- Fixed: video regex
+- Updated: pornrabbit
+- Fixed: categories
+- Fixed: video regex
+- Fixed: catcher
+
+
+[B]Version 1.7.29[/B]
+
+- Updated: youjizz
+- Fixed: video regex
+
+
+[B]Version 1.7.28[/B]
+
+- prefixed broken sites with zz for future removal.
+
+
+[B]Version 1.7.27[/B]
+
+- Added: 4tube
+
+
+[B]Version 1.7.26[/B]
+
+- Cleanups for Eden
+
+
+[B]Version 1.7.25[/B]
+
+- Added: moviefap
+
+
+[B]Version 1.7.24[/B]
+
+- Updated: yuvutu
+- Fixed: video regex
+- Updated: fucktube
+- Fixed: video regex
+- Fixed: catcher
+- Updated: pornhub
+- Added: gay category
+
+
+[B]Version 1.7.23[/B]
+
+- Added: motherless
+
+
+[B]Version 1.7.22[/B]
+
+- Updated: eporner
+- Fixed: catcher
+
+
+[B]Version 1.7.21[/B]
+
+- Added: book-mark.net
+
+
+[B]Version 1.7.20[/B]
+
+- Added: fapdu
+- Added: youpunish
+- Added: hardsextube
+
+
+[B]Version 1.7.19[/B]
+
+- Updated: pornhub
+- Fixed: catcher
+- Updated: pornotube
+- Added: video length
+- Updated: shufuni
+- Fixed: titles (strip leading spaces)
+- Updated: youporn
+- Fixed: video listing
+- Fixed: next button
+
+
+[B]Version 1.7.18[/B]
+
+- Updated: yuvutu
+- Fixed: video listing
+- Updated: ah-me
+- Added: new links for long movies, top rated, most popular, HD
+
+
+[B]Version 1.7.17[/B]
+
+- Added: ah-me
+
+
+[B]Version 1.7.16[/B]
+
+- Updated: youporn
+- Fixed: catcher
+
+
+[B]Version 1.7.15[/B]
+
+- Updated: youjizz
+- Fixed: catcher
+
+
+[B]Version 1.7.14[/B]
+
+- Added: yuvutu
+- Added: spankwire
+
+
+[B]Version 1.7.13[/B]
+
+- Updated: youporn
+- Fixed: video url
+- Fixed: catcher
+- Updated: boysfood
+- Fixed video url
+- Fixed category
+- Fixed catcher
+- Fixed Search
+- Updated: pornomovies
+- Fixed: catcher
+
+
+[B]Version 1.7.12[/B]
+
+- Updated: eporner
+- Fixed: catcher
+- Fixed: video url
+- Fixed: category
+
+
+[B]Version 1.7.11[/B]
+
+- Updated: timtube
+- Fixed: catcher
+- Fixed: video url
+
+
+[B]Version 1.7.10[/B]
+
+- Updated: redtube
+- Fixed: catcher
+- Fixed: category
+- Fixed: next button
+- Updated: youjizz
+- Fixed: catcher
+
+
+[B]Version 1.7.9[/B]
+
+- Updated: pornotube
+- Fixed: catcher
+
+
+[B]Version 1.7.8[/B]
+
+- Updated: moviesand
+- Fixed: categories
+- Updated: pornhub
+- Fixed: catcher
+- Updated: pornoxo
+- Fixed: catcher
+- Updated: pornotube
+- Fixed: catcher
+- Fixed: video listing
+
+
+[B]Version 1.7.7[/B]
+
+- Updated: keez
+- Updated: mofosex
+- Fixed: catcher
+- Fixed: video listing
+
+
+[B]Version 1.7.6[/B]
+
+- Updated: fucktube
+- Fixed: catcher
+
+
+[B]Version 1.7.5[/B]
+
+- Updated: extremetube
+- Fixed: video listing
+- Fixed: catcher
+
+
+[B]Version 1.7.4[/B]
+
+- Updated: xhamster
+- Fixed: next button
+
+
+[B]Version 1.7.3[/B]
+
+- Updated: xhamster
+- Fixed: catcher
+- Fixed: video regex
+
+
+[B]Version 1.7.2[/B]
+
+- Updated: pornotube (catcher still broken)
+- Fixed: search
+
+
+[B]Version 1.7.1[/B]
+
+- Added: madthumbs and pornoxo
+- Added: readded shufuni and girlfriendvideos
+- Updated: xhamster, redtube and youporn (categories)
+- Updated: search (keep last search string in memory)
+- Updated: striptoslash command
+
+
+[B]Version 1.7.0[/B]
+
+- Fixed: encoding problems for atv users (thx tiben20 and cipher_)
+- Fixed: download problem
+- Removed: girlfriendvideos
+- Updated: youjizz, boysfood
+
+
+[B]Version 1.6.9[/B]
+
+- Updated: xhamster
+- Added: youjizz
+
+
+[B]Version 1.6.8[/B]
+
+- Updated: tube8, moviesand, keezmovies
+- Added: girlfriendvideos and eporner (thx tiben20)
+- Added: readded mofosex
+
+
+[B]Version 1.6.7[/B]
+
+- Updated: cookies are saved to the userdata profile path now
+- Added: description in addon.xml
+- Added: disclaimer in addon.xml
+- Added: enable debug logging option in plugin settings
+- Added: action=decode (catcher)
+
+
+[B]Version 1.6.6[/B]
+
+- Updated: youporn
+- Added: ext_action=decode (catcher)
+
+
+[B]Version 1.6.5[/B]
+
+- Added: StileProject (thx tiben20)
+- Updated: extremetube, boysfood
+- Removed: mofosex
+
+
+[B]Version 1.6.4[/B]
+
+- Replaced: os.getcwd() with addon.getAddonInfo('path')
+- Replaced: full setting path with addon.getAddonInfo('profile')
+
+
+[B]Version 1.6.3[/B]
+
+- Updated: pornhub, mofosex, extremetube
+- Added: moviesand, xhamster (re-added)
+- Updated: xhamster icon
+- Added: license.txt and changelog.txt

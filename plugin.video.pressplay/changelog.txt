@@ -1,2 +1,13 @@
+[B][COLOR gold]v1.0.2[/COLOR][/B]
+- Added option to enable/disable size filtering
+    If you already use size filtering you'll have to enable this option, as it's off by default
+- Pre-emptive termination now takes size filters into account as well
+    That means that scraping will stop when enough sources that meet your max quality
+    and size filters criteria are found
+- Added function that tries to circumvent data mismatches between metadata sites and scene releases
+
+[B][COLOR gold]v1.0.1[/COLOR][/B]
+- Minor fixes
+
 [B][COLOR gold]v1.0.0[/COLOR][/B]
 - Public release

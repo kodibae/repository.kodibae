@@ -1,0 +1,24 @@
+Changelog 0.0.5:
+- Fixed bug
+
+Changelog 0.0.4:
+- Fixed bug
+
+Changelog 0.0.3:
+- Added Rescrape Item option to episode context menu
+- Added setting 'Title Language' to set titles to romaji/english
+- Added 'Airing Dubbed Anime' menu item
+- Added 'Next Up' to watchlist menu items
+- Adjusted content types of items
+- Adjusted MAL/AniList auth for linux os
+- Improved season torrent pack handling
+
+Changelog 0.0.2:
+- Added premiumize support
+- Improved handling of episodes/seasons retrieval
+- Improved nyaa search
+- Added 'episodes' content type to set menu content type setting
+- Added menu content type to be applied to watchlist landing page
+
+Changelog 0.0.1
+- Initial Release

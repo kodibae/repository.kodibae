@@ -1,0 +1,301 @@
+
+[B]4.3.1 (2020.09.03)[/B]
+- Fixed bugs for Kodi 19.
+
+[B]4.3.0 (2020.06.09)[/B]
+- Added Apocalypse 720 integration.
+- Better abort detection in service.
+- Fixed raw settings retrieval.
+
+[B]4.2.7 (2020.05.09)[/B]
+- Changed notification popups.
+
+[B]4.2.6 (2020.05.09)[/B]
+- Increased the default scraping timeout.
+
+[B]4.2.5 (2020.05.07)[/B]
+- Added alternative file copy mechanisms.
+- Improved settings file adaption.
+
+[B]4.2.4 (2020.05.02)[/B]
+- Fixed NanScrapers integration.
+- Possible fix for settings file copy.
+
+[B]4.2.3 (2020.04.01)[/B]
+- Added size attribute to OpenScrapers integration.
+
+[B]4.2.2 (2020.03.30)[/B]
+- Changed networker header handling.
+
+[B]4.2.1 (2020.03.26)[/B]
+- Changed promotion notifications.
+
+[B]4.2.0 (2020.03.26)[/B]
+- Updated promotion options.
+
+[B]4.1.1 (2020.02.22)[/B]
+- Updated OpenScrapers integration.
+
+[B]4.1.0 (2020.02.12)[/B]
+- Added best sorting option.
+- Added website player support.
+- Added new video codecs.
+- Updated Fen integration.
+- Fixed OpenScrapers integration.
+- Fixed old integrations.
+- Added integration list first setting.
+
+[B]4.0.0 (2019.12.30)[/B]
+- Porting to Python 3.
+- Fixed Fen integration.
+- Updated authentication process.
+- Fixed integration version number.
+- Added authentication menu.
+- Dynamic indentation during integration.
+- Added settings for integration addons.
+- Improved addon installation detection.
+- Better handling of raw API results.
+- Updated server dialog.
+- Added ticket support.
+- Version update notifications.
+- Many bug fixes and improvements.
+
+[B]3.5.4 (2019.11.25)[/B]
+- Fixed OpenScrapers integration.
+
+[B]3.5.3 (2019.11.22)[/B]
+- Fixed Fen integration.
+
+[B]3.5.2 (2019.11.12)[/B]
+- Fixed integration version.
+- Added support for redeeming vouchers.
+
+[B]3.5.1 (2019.11.11)[/B]
+- Fixed dark icons.
+
+[B]3.5.0 (2019.11.10)[/B]
+- Improved integration menu.
+- Improved settings wizard.
+- Added online backup feature.
+- Fixed settings and backup bugs.
+- Added Marauder integration.
+- Added Asguard integration.
+
+[B]3.4.1 (2019.09.15)[/B]
+- Added message for initialization errors.
+
+[B]3.4.0 (2019.09.10)[/B]
+- Removed hardcoded uploaders.
+- Changed network exceptions.
+- Changed settings versions.
+- Added step-by-step setup wizard.
+- Added integration for Continuum.
+
+[B]3.3.2 (2019.08.22)[/B]
+- Another change to the backup archive creation.
+
+[B]3.3.1 (2019.08.22)[/B]
+- Changed how backup archives are created.
+
+[B]3.3.0 (2019.08.12)[/B]
+- Version increase for new repository.
+
+[B]3.2.7 (2019.08.12)[/B]
+- Added support for TVRage IDs.
+- Added support for Trakt IDs.
+- Added support for Trakt slugs.
+- Added container identifier support.
+- Added container segment support.
+
+[B]3.2.6 (2019.08.02)[/B]
+- Fixed UniversalScrapers integration.
+
+[B]3.2.5 (2019.08.01)[/B]
+- Fixed update failures due to running service.
+
+[B]3.2.4 (2019.08.01)[/B]
+- Reverted service code.
+
+[B]3.2.3 (2019.08.01)[/B]
+- Possible fix for update failures.
+
+[B]3.2.2 (2019.08.01)[/B]
+- Fixed service that stops Orion from launching.
+
+[B]3.2.1 (2019.07.31)[/B]
+- Improved background service.
+
+[B]3.2.0 (2019.07.19)[/B]
+- Customized API keys for scraping addons.
+- Added separate limits for movies and shows.
+- Changed database management.
+- Added a new interface color.
+- Added integration for Elementum.
+- Added integration for Quasar.
+- Added integration for Genesis.
+- Added integration for Scrubs.
+- Added integration for Fen.
+- Added support for Venom.
+- Added support for Medusa.
+- Added support for Mercury.
+- Added support for TheOath.
+
+[B]3.1.0 (2019.07.11)[/B]
+- Restructured file filters.
+- Added file name filters.
+
+[B]3.0.2 (2019.06.27)[/B]
+- Added container limit to settings.
+
+[B]3.0.1 (2019.06.27)[/B]
+- Fixed authentication bug.
+
+[B]3.0.0 (2019.06.26)[/B]
+- Updated API access to version 3.
+- Added hash support.
+- Added container support.
+- Fixed NanScrapers.
+- Fixed UniversalScrapers and added torrent support.
+- Added Exodus integration.
+- Added Nymeria integration.
+- Updated documentation and examples.
+- Fixed custom filter stream type.
+
+[B]2.2.0 (2019.04.13)[/B]
+- Changed access error logging.
+- Fixed OpenScrapers integration.
+- Better torrent retrieval for OpenScrapers.
+- Fixed date formatting.
+- Added subscription expiration notifications.
+- Added networker JSON decoding.
+
+[B]2.1.5 (2019.03.19)[/B]
+- Fixed settings help labels for Kodi 17 again.
+
+[B]2.1.4 (2019.03.19)[/B]
+- Fixed settings help labels for Kodi 17.
+
+[B]2.1.3 (2019.03.19)[/B]
+- Fixed external filter settings integration.
+
+[B]2.1.2 (2019.03.19)[/B]
+- Fixed Kodi 18 settings adaptation.
+
+[B]2.1.1 (2019.03.19)[/B]
+- Fixed directory list.
+- Added OpenScrapers integration.
+- Kodi 18 settings support.
+
+[B]2.1.0 (2019.03.15)[/B]
+- Added Boom Movies integration.
+- Added Seren integration.
+- Fixed Yoda integration.
+- Fixed LambdaScrapers integration.
+- Changed to color icons for apps.
+- Updated integration settings.
+- Added torrent support for addon integration.
+
+[B]2.0.1 (2019.02.15)[/B]
+- Improved database locking.
+
+[B]2.0.0 (2019.02.08)[/B]
+- Possible fix for settings reset.
+- Custom filters based on app instead of integration.
+- Added BluRay and DVD Remux release types.
+- Fixed audio type.
+- Added audio system.
+- Added stream origin.
+- Extended uploaders list.
+- Extended sources list.
+- Extended hosters list.
+- Minimized the settings database.
+- Fixed account limit labels.
+- Added stream removal requests.
+- Class variable optimisation.
+- Fixed filtering issues.
+- Fixed settings for Kodi 18.
+- Fixed seed and age filters.
+- Fixed automatic backup.
+
+[B]1.3.2 (2018.12.23)[/B]
+- Added promotions.
+- Changed account settings label.
+- Fixed account reset.
+- Support for Kodi 18.
+
+[B]1.3.1 (2018.11.25)[/B]
+- Updated automatic backup.
+- Added settings cache.
+- Fixed advanced settings toggle.
+
+[B]1.3.0 (2018.11.19)[/B]
+- Added advanced settings.
+- Fixed SSL communication.
+
+[B]1.2.9 (2018.11.09)[/B]
+- Improved addon integration.
+
+[B]1.2.8 (2018.10.18)[/B]
+- Upgraded LambdaScrapers integration.
+- Added Exodus Redux support.
+
+[B]1.2.7 (2018.10.15)[/B]
+- Another fix for automatic backup.
+
+[B]1.2.6 (2018.10.04)[/B]
+- Minor fix for automatic backup.
+- Fixed settings title case.
+
+[B]1.2.5 (2018.10.03)[/B]
+- Added Magicality integration.
+- Added Bodie integration.
+- Added LambdaScrapers integration.
+
+[B]1.2.4 (2018.10.01)[/B]
+- Added automatic settings backup.
+
+[B]1.2.3 (2018.09.29)[/B]
+- Possible solution for settings reset.
+
+[B]1.2.2 (2018.09.26)[/B]
+- Improved scraping time.
+- Fixed dynamic filter saving.
+
+[B]1.2.1 (2018.09.24)[/B]
+- Fixed audio channel filter.
+
+[B]1.2.0 (2018.09.19)[/B]
+- Fixed Incursion integration.
+- Fixed Placenta integration.
+- Added Covenant integration.
+- Added Yoda integration.
+
+[B]1.1.1 (2018.09.17)[/B]
+- Fixed encoding error that caused some scrapes to fail.
+
+[B]1.1.0 (2018.09.09)[/B]
+- Integration support for external addons.
+- Added filter for unknown file sizes.
+- Fixed invalid authentication notification.
+- Possible fix for settings reset.
+- Added video quality to sequential scraping mode.
+- Many small fixes and additions.
+
+[B]1.0.3 (2018.08.11)[/B]
+- Authentication using email and password.
+- Fixed used and remaining limit labels.
+- Added support for anonymous accounts.
+- Added settings backup feature.
+- Added file hoster filter.
+- Fixed a few minor bugs.
+
+[B]1.0.2 (2018.08.05)[/B]
+- Better support for hoster links.
+- Added the hoster name to streams.
+
+[B]1.0.1 (2018.07.24)[/B]
+- Fixed the remaining days label.
+- Reduced the default limit for free accounts.
+
+[B]1.0.0 (2018.07.22)[/B]
+- Initial release.

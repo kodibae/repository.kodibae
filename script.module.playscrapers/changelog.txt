@@ -1,2 +1,5 @@
+[B][COLOR gold]v1.0.1[/COLOR][/B]
+- Scraper fixes
+
 [B][COLOR gold]v1.0.0[/COLOR][/B]
 - Public release

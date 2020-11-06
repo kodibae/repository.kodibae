@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="context.kaito" version="0.0.2" name="kaito - Global Context Menu Items" provider-name="SwagOtaku">
+	<requires>
+		<import addon="xbmc.python" version="2.23.0" />
+	</requires>
+	<extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+			<item library="rescrape.py">
+	              <label>Rescrape Item</label>
+	              <visible>String.StartsWith(ListItem.path,plugin://plugin.video.kaito/)+[String.IsEqual(ListItem.dbtype,episode)]</visible>
+	          </item>
+			<item library="sourceSelect.py">
+					      <label>Source Select</label>
+					      <visible>String.StartsWith(ListItem.path,plugin://plugin.video.kaito/)+[String.IsEqual(ListItem.dbtype,episode)|String.IsEqual(ListItem.dbtype,movie)]</visible>
+					  </item>
+			<item library="findSimilar.py">
+		            <label>Find Similar</label>
+		            <visible>String.StartsWith(ListItem.path,plugin://plugin.video.kaito/)+[String.IsEqual(ListItem.dbtype,tvshow)|String.IsEqual(ListItem.dbtype,movie)]</visible>
+		        </item>
+			<item library="seasonCorrection.py">
+                <label>Season Correction</label>
+                <visible>String.StartsWith(ListItem.path,plugin://plugin.video.kaito/)+[String.IsEqual(ListItem.dbtype,tvshow)]</visible>
+            </item>
+			<item library="watchlistLogout.py">
+			          <label>Logout</label>
+			          <visible>String.StartsWith(ListItem.path,plugin://plugin.video.kaito/)+[String.Contains(ListItem.folderpath,/watchlist/)]</visible>
+			      </item>
+        </menu>
+    </extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">kaito - This Addon is currently in beta. Please be aware there may be bugs present</summary>
+		<description lang="en">Adds Global Contextual Menu Items for kaito menu items throughout Kodi
+		</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<disclaimer lang="en"></disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>
+Changelog 0.0.2:
+- Added Rescrape Item option
+
+Changelog 0.0.1:
+- Initial release
+		</news>
+	</extension>
+</addon>

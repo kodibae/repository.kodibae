@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.module.streamlink.base" name="Streamlink Library" version="2020.06.21" provider-name="Streamlink Devs, Twilight0">
+<addon id="script.module.streamlink.base" name="Streamlink Library" version="2020.09.07.1" provider-name="Streamlink Devs, Twilight0">
   <requires>
       <import addon="xbmc.python" version="2.26.0"/>
       <import addon="script.module.requests" version="2.12.4"/>
-      <import addon="script.module.futures" version="2.2.0"/>
+      <import addon="script.module.futures" version="0.0.0.1"/>
       <import addon="script.module.pycryptodome" />
   </requires>
   <extension point="xbmc.python.module" library="resources/lib/"/>
@@ -17,15 +17,13 @@
       <assets>
           <icon>icon.png</icon>
       </assets>
-      <news>+2020.06.21
-- Updated to latest commit
-- Dropped cryptolib in favour of pycryptodome
+      <news>+2020.09.07.1
+- Update to latest upstream commit
+- Remove on demand installation of futures module
+- Add dummy futures module for Kodi 19
 
-+2020.03.05
-- Updated to latest commit
-
-+2020.01.28
-- Updated to latest upstream commit
-- Tweaks for import errors for Python 3</news>
++2020.08.09
+- Update to latest upstream commit
+- Futures module is not set to optional (on Kodi 19 it is not imported)</news>
   </extension>
 </addon>
