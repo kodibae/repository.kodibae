@@ -1,2 +1,5 @@
+[B][COLOR gold]v10.0.1[/COLOR][/B]
+- Dependency correction
+
 [B][COLOR gold]v10.0.0[/COLOR][/B]
 - Rebased code
