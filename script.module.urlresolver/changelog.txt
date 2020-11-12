@@ -1,3 +1,18 @@
+Version 5.1.13 (November 9, 2020)
+- Code Base Changes:
+    - captcha_lib improvements
+    - fix some unicode warnings
+    - fix fetching cookies from response headers
+- Resolvers Added:
+    - streamsb
+- Resolvers Fixed/Updated:
+    - googlevideo plugin now uses googledrive addon instead of gdrive
+    - vidoza
+- Resolvers Removed
+    - none
+- Languages Added/Updated
+    - none
+
 Version 5.1.12 (November 2, 2020)
 - Code Base Changes:
     - captcha lib

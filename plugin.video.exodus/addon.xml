@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.exodus" name="[COLOR orange]Exodus[/COLOR]" provider-name="Exodus" version="10.0.1">
+<addon id="plugin.video.exodus" name="[COLOR orange]ExodusVPN.com[/COLOR]" provider-name="ExodusVPN.com" version="10.0.2">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <import addon="script.exodus.artwork" />
@@ -24,7 +24,7 @@
     <extension point="xbmc.addon.metadata">
         <reuselanguageinvoker>false</reuselanguageinvoker>
         <summary lang="en_GB">Exodus</summary>
-        <description lang="en_GB">Get Better Streaming and Support Exodus with a VPN from [COLOR pink]EXODUSVPN.COM[/COLOR]</description>
+        <description lang="en_GB">Get Better Streaming and Support Exodus with a VPN from [COLOR pink]ExodusVPN.com[/COLOR]</description>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
         <forum />

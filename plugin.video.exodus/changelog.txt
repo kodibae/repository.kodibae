@@ -1,3 +1,6 @@
+[B][COLOR gold]v10.0.2[/COLOR][/B]
+- Slight name change
+
 [B][COLOR gold]v10.0.1[/COLOR][/B]
 - Dependency correction
 
