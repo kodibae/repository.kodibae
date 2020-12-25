@@ -1,3 +1,15 @@
+[B][COLOR gold]v1.0.6[/COLOR][/B]
+- Scraper fixes
+
+[B][COLOR gold]v1.0.5[/COLOR][/B]
+- Scraper fixes
+
+[B][COLOR gold]v1.0.4[/COLOR][/B]
+- Scraper fixes
+
+[B][COLOR gold]v1.0.3[/COLOR][/B]
+- Scraper fixes
+
 [B][COLOR gold]v1.0.1[/COLOR][/B]
 - Scraper fixes
 
