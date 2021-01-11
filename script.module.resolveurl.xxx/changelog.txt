@@ -1,0 +1,10 @@
+Version 2.1.7 (December 19, 2020)
+
+- Resolvers Added:
+    - None
+ 
+- Resolvers Fixed/Updated:
+    - pornhub
+
+- Resolvers Removed
+    - None

@@ -1,3 +1,30 @@
+[B][COLOR gold]v1.0.5[/COLOR][/B]
+- Added notification when trying to play trailer and API key's quota limit has been reached
+- Cloudflare scraper updated from source
+- Added some more titles to the meta/scene mismatches function
+- Utilise kodi_six lib to handle py2/3 diffs on Kodi's python API
+    modules cleaner
+- Removed Feature: check movie/episode before importing to library
+    It's just an insignificant reason to stress our providers when importing lists
+- Minor Kodi 19 fixes
+- Cloudflare scraper updated from source
+- Quantity of items per page on paginated lists made customizable (defaults to 20)
+[I]!! YOU HAVE TO RE-AUTHORISE TRAKT AFTER UPDATING TO THIS RELEASE !![/I]
+    (unless you use your own trakt client-id/client-secret.
+- Fixed Trakt episode indicators for Kodi 19
+- Various other fixes
+
+[B][COLOR gold]v1.0.4[/COLOR][/B]
+- Re:sources filters tweaks
+- Fixed downloading to network shares
+- Kodi 19 fix
+- Re-arranged source fetching and filtering (internally) for more accuracy on source
+    counting, and pre-emptive termination to take into account more filters (WiP)
+- Personal Fanart.tv API key is now required to be entered in settings, in order to fetch
+    extra and hq artwork
+    That was done due to some add-ons cloning, along with the add-on's hard-coded API keys
+- Minor tweaks to previous commits
+
 [B][COLOR gold]v1.0.2[/COLOR][/B]
 - Added option to enable/disable size filtering
     If you already use size filtering you'll have to enable this option, as it's off by default

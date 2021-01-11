@@ -1,4 +1,4 @@
-V4.0.19
+V4.0.20
 - Version Bump to Fix Disabling
 
 V4.0.18

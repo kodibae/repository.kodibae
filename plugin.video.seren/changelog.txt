@@ -1,20 +1,109 @@
-Changelog 1.6.16:
-Fix response.status_code check for Trakt Auth
+Changelog 2.0.10
+Fixed issue with milling seasons to often
+Added checks when attempting to cache magnet
+Fixed tvshows new
+Fetching of RD account details after auth fixed
+Fixed spanish translation folder name
+Reformat of source select to allow larger file name sizes
+Fixed race condition in ThreadPool
+Added fallback for text color if skin color could not be inherited
+Add legacy param support for smart play playlist creation
+Fix hide the hiding of unaired episodes from non mixed episode lists
+Removed default action setting until a appropriate workaround for kodi setting is achieved
+Wrapped player interactions with Trakt API with Try/Excepts to allow network failures
+Added fallback method if no thumb art is available
+Added temporary workaround for ratings issue in add_directory_items
+Fixed keep-alive in player module. (Fixes dialogs, playlist creation, marking as watched if not caused by network failure)
+Allowed exceptions in cache check to allow for debrid providers who are offline
+Replaced ok dialogs for connection issues with notifications
 
-Changelog 1.6.15:
-Adjsut status code responses for Trakt module
+Changelog 2.0.9:
+Fixed RD cloud scraping
+Fixed issue if all providers were disabled scraping would run as if all were enabled
+Fixed smartplay and legacy paramas support
+Fixed bug causing failure when checking art from TMDB
+Fixed user lists menus
+Added spanish translation
+Fixed backing out from menu when opened from widget (having to backout multiple times)
+Fixed season watch markers
 
-Changelog 1.6.14:
-Remove cleaning of depricated settings as it was causing corrupt settings file
+Changelog 2.0.8:
+Temporary Workaround for trakt items not providing trakt_id
+Better RD episode resolving
+Better episode identification during resolving
+Catch WindowsError exception when handling skins
+Fix text highlight selection
+Cool down background service on failure
 
-Changelog 1.6.13:
-Add workaround on failure to grab user lists
+Changelog 2.0.7:
+Fixed All debrid torrent resolving
+Fixed movie resuming
+Fixed issue with limited providers running at scrape
+Fixed AD re-auth
+Changes to attempt to fix XBOX support and ascii issues with timezones
+Fixed unaired episodes showing blank
+Fixed AD User info fetching
+Fixed ghost providers
+Fixed TypeError with pre-termination
 
-Changelog 1.6.12:
-Fix endpoint for still watching and playing next windows
+Changelog 2.0.6:
+Create Skins directory if missing
+Allow failure in pre-term until investigated
 
-Changelog 1.6.11:
-Fix provider list not showing due to theme changes
+Changelog 2.0.5:
+Allow more failures that will require to be investigated further in the future
+
+Changelog 2.0.4:
+Safe get release title when cloud scraping
+Allow and log failures in maintenance process
+
+Changelog 2.0.3:
+Added default value of None for skin color when attempting to pull color from user's skin
+
+Changelog 2.0.2:
+Force table re-fresh is sync database fails to rebuild when updating
+
+Changelog 2.0.1:
+Fix last_meta_update value to reflect new Seren version
+
+Changleog 2.0.0:
+
+Added Download Manager
+Complete re-write of Trakt Sync Database
+Metadata handler introduced and complete re-write of handling of metadata
+Settings that modify metadata can now be changed on the fly and do not require a rebuild
+Users can now manually resolve a file from the source select screen
+Users can now manually cache a specific source from the source select screen
+Complete re-write of menu handling
+Introduced globals module to handle global variables for interpreter
+Implement re-use language invoker setting from Kodi
+Pre-emptive termination now disabled for background Pre-scrapes and timeout set to max for background scrapes
+New artwork and custom dialogs
+Metadata now upadted on the fly when updated item encountered from Trakt
+Next Up menu now populated from local database
+Sync has been fleshed out to include even more meta data during cycle
+Failures to auto resolve now prompt user in case they wish to manually interrupt
+Items are now able to supply multiple images for any given type for skins that make use of it
+Support for Python 3
+Global thread lock now implemented for required methods (prevents multiple syncs occuring at once and other locks)
+InputStreamAdaptive support
+Providers now have the abiity to implement settings
+Provider packages can now elect to make use of their own background services
+Provider packages can now offer images for each provider
+Cache and Sync database items are now pickled
+Complete re-write of resovler module and consolidated code
+Kodi 19 support
+All Debrid implementation now fully featured
+Sources can now be sorted by filesize low to high for users that wish to do so
+Forcing widget refresh after playback now optional
+Zip manager implemented for handling of zip files
+Skin Manager rework
+Automated resolving now more reliable
+OMDB API implemented
+Feedback provided at scrape if no providers are found
+Feedback provided at scrape if no debrid providers are setup
+Debrid account status now visible from Seren settings
+
 
 Changelog 1.6.10:
 Increased concurrent threads for Trakt Sync database to speed up large menu lists
@@ -452,7 +541,7 @@ Added removal of duplicate space characters to clean title function
 Added support for single episode folders to Premiumize cloud inspection
 
 Changelog 0.2.28:
-Fixed issue with addonName variable change
+Fixed issue with ADDON_NAME variable change
 
 Changelog 0.2.27:
 Adjusted RD cache inspection to allow multiple video files within a single movie item

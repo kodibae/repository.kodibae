@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.kaito" name="kaito" provider-name="SwagOtaku" version="0.0.5">
+<addon id="plugin.video.kaito" name="kaito" provider-name="SwagOtaku" version="0.0.7">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
     <import addon="script.module.requests" version="2.19.1" />
@@ -22,6 +22,22 @@
 			<fanart>fanart.jpg</fanart>
 		</assets>
     <news>
+Changelog 0.0.7:
+Improved cloud inspection
+Adjusted 'Next Up'
+Adjusted 'Rebuild Database'
+Fixed gogo embed
+Fixed new episodes not being added
+
+Changelog 0.0.6:
+Added Premiumize and Real-Debrid cloud inspection
+Added setting 'Seperate Dubs and Subs' to seperate anime into sub and dub list items if dub is available (test flight)
+Added instruction dialog for MAL/AniList auth for linux os
+Adjusted set titles to romaji/english
+Adjusted Tertiary Dub filter
+Improved 'Next Up'
+Improved season torrent pack scraping
+
 Changelog 0.0.5:
 Fixed bug
 
