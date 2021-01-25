@@ -1,12 +1,15 @@
-Version 5.1.20 (January 7, 2021)
+Version 5.1.22 (January 18, 2021)
 - Code Base Changes:
     - None
 
 - Resolvers Added:
-    - k2s
+    - jetload
  
 - Resolvers Fixed/Updated:
-    - StreamTape
+    - videossh
+    - voe.sx
+    - evoload
+    - doodstream
 
 - Resolvers Removed
     - None

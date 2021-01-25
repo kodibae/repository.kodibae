@@ -1,8 +1,0 @@
-[B]Version 1.1.2[/B]
-Initial public release
-Fixed: Notifications
-Fixed: Keywords from UWC backup 
-Fixed: Adding Chaturbate categories to custom lists
-Fixed: pornhub next page on search
-Removed: k18 website
-Changed: Reversed order of keywords and favorites

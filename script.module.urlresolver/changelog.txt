@@ -1,3 +1,37 @@
+Version 5.1.22 (January 21, 2021)
+- Code Base Changes:
+    - recaptcha fix
+- Resolvers Added:
+    - abcvideo
+    - evoload
+    - gamovideo
+    - speedostream
+    - vidcloud
+    - videossh
+- Resolvers Fixed/Updated:
+    - doodstream
+    - jetload
+    - speedwatch
+    - voesx
+- Resolvers Removed
+    - vidup
+- Languages Added/Updated
+    - none
+
+Version 5.1.20 (January 11, 2021)
+- Code Base Changes:
+    - net
+- Resolvers Added:
+    - k2s
+- Resolvers Fixed/Updated:
+    - streamtape
+    - streamz
+    - tvlogy
+- Resolvers Removed
+    - none
+- Languages Added/Updated
+    - none
+
 Version 5.1.18 (December 25, 2020)
 - Code Base Changes:
     - none

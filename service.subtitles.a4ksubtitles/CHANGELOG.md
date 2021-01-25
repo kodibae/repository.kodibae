@@ -1,3 +1,17 @@
+* [v2.2.0](https://github.com/newt-sc/a4kSubtitles/releases/tag/service.subtitles.a4ksubtitles%2Fservice.subtitles.a4ksubtitles-2.2.0):
+  * Fix KODI 19 Matrix support
+
+* [v2.1.0](https://github.com/newt-sc/a4kSubtitles/releases/tag/service.subtitles.a4ksubtitles%2Fservice.subtitles.a4ksubtitles-2.1.0):
+  * Fix Persian search in Subscene
+
+* [v2.0.0](https://github.com/newt-sc/a4kSubtitles/releases/tag/service.subtitles.a4ksubtitles%2Fservice.subtitles.a4ksubtitles-2.0.0):
+  * Use IMDb as main source for all meta.
+  * Retry on 503 (Service Unavailable). OpenSubtitles and Subscene seems to return it occasionally.
+
+* [v1.8.0](https://github.com/newt-sc/a4kSubtitles/releases/tag/service.subtitles.a4ksubtitles%2Fservice.subtitles.a4ksubtitles-1.8.0):
+  * Remove SubDb (Site is down)
+  * Make lib vfs optional since there are fallbacks and it is used as last case scenario. Thus making the addon installable on platforms which are not supported by lib vfs.
+
 * [v1.7.2](https://github.com/newt-sc/a4kSubtitles/releases/tag/service.subtitles.a4ksubtitles%2Fservice.subtitles.a4ksubtitles-1.7.2):
   * Improve results sort based on title match
 

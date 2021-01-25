@@ -1,3 +1,59 @@
+Changelog 2.0.16:
+Fix addon update check
+Fix trakt module attempting to refresh when not authorised
+
+Changelog 2.0.15:
+Fixed python depend
+
+Changelog 2.0.14:
+Fixed scraping issue if title is not present at IMDB
+Added workarounds for syncing trakt database on xbox
+Fixed Trending/Popular Trakt lists repeating
+Seperated sort and pagination setting for Trakt collection
+Applied sort and pagination settings for collection to unfinished shows in collection
+Re-worked date handling to use UTC for all internal uses and convert to local on display
+Fixed pagination on recently watched shows menu
+Fixed source sorting issue for py3
+Fixed race condition in pre-term for py3
+File size now displayed on resolver dialog
+Updated some dutch translations
+Fixed hosters not being handled correctly at scrape
+Fix reuselanguageinvoker default
+Fixed background sync attempting to run when no Trakt auth present
+
+Changelog 2.0.13
+Fixed settings not sticking when using reuselanguageinvoker
+Fixed reuselanguageinvoke status not sticking after toggling
+Reuselangugageinvoker state now forced on startup
+Reduced Trakt retries on server failures
+Increased backoff timeout for retries
+Fixed playback for special episodes failing
+Eased timeout issues for bookmarks
+Fixed non-direct, non-debrid hosters appearing in source select
+Fix spanish translation file name
+Fixed title sorting for lists with articles
+Fixed paging on new shows
+
+Changelog 2.0.12
+Fix for source select, tested on 4 skins
+
+Changelog 2.0.11
+Take preventative measures to reduce overloading Trakt servers
+Increase local show/season statistic refreshing
+Fixed cloud source sorting
+Fixed HEVC source sorting
+New shows api call now pulls english and local language from Trakt
+Modified database commit method to allow for xbox support
+Reformat source select screen again to allow better filename displaying
+Fixed next button showing on next up menu
+Removed pycryptodome dependency, this will need to be requested on a per provider basis
+Fixed pre-term
+Fixed empty search results raising exception
+Fixed auto episode resuming
+Fixed superficial exceptions in play dialogs
+Updated danish language strings
+
+
 Changelog 2.0.10
 Fixed issue with milling seasons to often
 Added checks when attempting to cache magnet
