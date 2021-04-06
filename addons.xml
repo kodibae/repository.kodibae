@@ -29,7 +29,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.pressplay" name="[COLOR pink]PressPlay[/COLOR]" provider-name="PressPlay" version="1.0.6">
+<addon id="plugin.video.pressplay" name="[COLOR pink]ExodusVPN.com[/COLOR]" provider-name="PressPlay" version="3.0.0">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <import addon="script.pressplay.artwork" />
@@ -214,7 +214,7 @@ Changelog 0.0.1:
 
 <addon id="plugin.video.uwc"
        name="Ultimate Whitecream"
-       version="1.2.43"
+       version="1.2.45"
        provider-name="Whitecream, holisticdioxide">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -238,8 +238,8 @@ Changelog 0.0.1:
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-        <news>[B]Version 1.2.43[/B]
-Removed Cumination dependency
+        <news>[B]Version 1.2.45[/B]
+Added keyword alphabetical sorting
 </news>
     </extension>
 </addon>
@@ -404,9 +404,9 @@ Initial release
   </extension>
 </addon>
 
-<addon id="script.module.orion" version="4.3.1" name="Orion" provider-name="Orion">
+<addon id="script.module.orion" version="4.5.2" name="Orion" provider-name="Orion">
 	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="xbmc.addon" version="17.0.000" />
 		<import addon="repository.orion" version="1.0.0" optional="true" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="lib/addon.py">
@@ -547,29 +547,33 @@ Initial release
     </extension>
 </addon>
 
-<addon id="script.module.metahandler"
-     name="metahandler"
-     version="3.0.2"
-     provider-name="Eldorado, jsergio">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.simplejson" version="3.3.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="script.module.myconnpy" version="1.1.6"/>
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Downloads Artwork for TV shows, Movies and Music videos for addons and stores them in a local SQLITE database</summary>
-    <description lang="en">Queries, stores, and returns metadata for TV shows, Movies and Musicvideos. [CR]Sources:[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]www.imdb.com[CR]www.omdbapi.com[CR]This product uses the TMDb API but is not endorsed or certified by TMDb.</description>
-    <disclaimer lang="en"></disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
-  </extension>
+<addon id="script.module.metahandler" name="metahandler" version="3.99.03" provider-name="Eldorado">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.simplejson" version="3.3.0" />
+		<import addon="script.module.addon.common" version="2.0.0" />
+		<import addon="script.module.myconnpy" version="1.1.6" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Downloads Artwork for TV shows, Movies and Music videos for addons and stores them in a local SQLITE database</summary>
+		<description lang="en">Queries, stores, and returns metadata for TV shows, Movies and Musicvideos. [CR]Sources:[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]www.imdb.com[CR]www.omdbapi.com[CR]This product uses the TMDb API but is not endorsed or certified by TMDb.</description>
+		<disclaimer lang="en"></disclaimer>
+		<language></language>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum></forum>
+		<website></website>
+		<email></email>
+		<source></source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart></fanart>
+			<screenshot></screenshot>
+		</assets>
+		<news></news>
+	</extension>
 </addon>
 
 <addon id="plugin.video.sport365.live" name="Sport365" version="2.6.10.1" provider-name="Bugatsinho">
@@ -601,14 +605,13 @@ Initial release
   </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.22" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.28" provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
         <import addon="plugin.video.youtube" optional="true" />
         <import addon="script.module.python.twitch" optional="true" />
-        <import addon="script.module.cryptopy" version="1.2.6" optional="true" />
         <import addon="plugin.googledrive" optional="true" />
     </requires>
     <extension point="xbmc.python.module" library="lib" />
@@ -859,10 +862,36 @@ Initial release
     </extension>
 </addon>
 
-<addon id="script.module.resolveurl.xxx" version="2.1.8" name="Adult Resolver SMR Extension" provider-name="gujal">
+<addon id="plugin.video.cumination" name="Cumination" provider-name="Cumination" version="1.1.11">
+    <requires>
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+        <import addon="script.module.resolveurl" version="5.0.00" />
+        <import addon="script.module.resolveurl.xxx" version="2.0.1" />
+        <import addon="script.common.plugin.cache" />
+        <import addon="script.module.websocket" version="0.50.0" />
+        <import addon="script.module.requests" optional="true" />
+    </requires>
+    <extension library="default.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>GPL 2.0</license>
+        <summary lang="en_GB">Cumination, the culmination of adult sites on Kodi</summary>
+        <description lang="en_GB">Cumination, the culmination of adult sites on Kodi</description>
+        <disclaimer lang="en_GB">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the sites offered. Click on About from the contextmenu on each site to check for contact details.</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.module.resolveurl.xxx" version="2.1.12" name="Adult Resolver SMR Extension" provider-name="gujal">
 	<requires>
 		<!-- <import addon="xbmc.python" version="2.1.0"/> -->
-        <import addon="script.module.resolveurl" version="5.0.0" />
+        <import addon="script.module.resolveurl" version="5.1.0" />
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
@@ -1158,7 +1187,7 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
     </extension>
 </addon>
 
-<addon id="plugin.video.exodus" name="[COLOR orange]ExodusVPN.com[/COLOR]" provider-name="ExodusVPN.com" version="10.0.2">
+<addon id="plugin.video.exodus" name="[COLOR orange]ExodusVPN.com[/COLOR]" provider-name="ExodusVPN.com" version="11.0.0">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <import addon="script.exodus.artwork" />
@@ -1168,7 +1197,6 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
         <import addon="script.module.requests" />
         <import addon="script.module.beautifulsoup4" />
         <import addon="script.module.playscrapers" />
-        <import addon="plugin.video.pressplay" />
         <import addon="script.module.six" />
         <import addon="script.module.simplejson" />
         <import addon="script.module.metahandler" optional="true" />
@@ -1229,6 +1257,32 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
     </extension>
 </addon>
 
+<addon id="repository.xbmchub" name="TVADDONS.CO Add-on Repository" version="3.0.0" provider-name="tvaddons">
+	<extension point="xbmc.addon.repository" name="TVADDONS.CO Add-on Repository">
+	<dir>
+		<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+		<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+	</dir>
+
+    <dir>
+		<info compressed="false">https://github.com/tvaddonsco/tva-release-repo/raw/master/addons.xml</info>
+		<checksum>https://github.com/tvaddonsco/tva-release-repo/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/tvaddonsco/tva-release-repo/raw/master/</datadir>
+    </dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Unofficial Kodi Addons from TVADDONS.CO</summary>
+		<description>Unofficial Kodi Addons from the TVADDONS.CO Add-on Repository. Please visit www.tvaddons.co for support!
+
+Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</description>
+         <disclaimer>TVADDONS.CO did not make all the add-ons in this repository and is not responsible for their content.</disclaimer>
+		<platform>all</platform>
+                <forum>https://www.tvaddons.co/forums</forum>
+                <website>https://www.tvaddons.co</website>
+	</extension>
+</addon>
+
 <addon id="repository.resolveurl" name="ResolveURL Repository" provider-name="gujal" version="1.0.0">
   <extension point="xbmc.addon.repository" name="ResolveURL Repository">
     <dir>
@@ -1265,7 +1319,7 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
 	</extension>
 </addon>
 
-<addon id="script.module.playscrapers" name="PlayScrapers Module" version="1.0.9" provider-name="PressPlay">
+<addon id="script.module.playscrapers" name="PlayScrapers Module" version="3.0.0" provider-name="PressPlay">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <import addon="script.module.beautifulsoup4" />
@@ -1293,15 +1347,15 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
     </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="5.1.22" provider-name="tvaddons">
+<addon id="script.module.urlresolver" name="URLResolver" version="6.0.01" provider-name="tvaddons">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
         <import addon="plugin.video.youtube" optional="true" />
         <import addon="script.module.python.twitch" optional="true" />
-        <import addon="script.module.cryptopy" version="1.2.6" optional="true" />
         <import addon="plugin.googledrive" optional="true" />
+        <import addon="repository.xbmchub" />
         <import addon="plugin.program.indigo" />
     </requires>
     <extension point="xbmc.python.module" library="lib" />

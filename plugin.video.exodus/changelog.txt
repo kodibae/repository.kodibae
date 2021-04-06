@@ -1,3 +1,6 @@
+[B][COLOR gold]v11.0.0[/COLOR][/B]
+- Small fixes
+
 [B][COLOR gold]v10.0.2[/COLOR][/B]
 - Slight name change
 

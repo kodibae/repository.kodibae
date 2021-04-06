@@ -1,4 +1,40 @@
 
+[B]4.5.2 (2021.04.02)[/B]
+- Updated all integrations for Kodi 19.
+- Fixed Elementum integration.
+
+[B]4.5.1 (2021.03.15)[/B]
+- Updated FenomScrapers integration.
+- Some dialog improvements.
+
+[B]4.5.0 (2021.02.10)[/B]
+- Improved authentication process.
+- Improved Seren integration.
+- Added public interface for request usage.
+- Changed online settings backup requirements.
+- Settings cleanup and optimization.
+
+[B]4.4.3 (2021.02.04)[/B]
+- Optimized saving filters settings.
+- Updated core class.
+
+[B]4.4.2 (2021.02.01)[/B]
+- Changed imports for Kodi 19.
+- Possible fix for encoding of the settings file.
+
+[B]4.4.1 (2021.01.22)[/B]
+- Added UniversalDebrid integration.
+- Added Asgard integration.
+- Fixed base64 decoding for Kodi 19.
+
+[B]4.4.0 (2021.01.15)[/B]
+- Added FenomScrapers integration.
+- Fixed integration for Python 3.
+- Renamed descending order attribute.
+- Fixed empty result exception.
+- Fixed Elementum and Quasar timeout issue.
+- Fixed a few Kodi 19 bugs.
+
 [B]4.3.1 (2020.09.03)[/B]
 - Fixed bugs for Kodi 19.
 

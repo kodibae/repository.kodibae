@@ -1,3 +1,6 @@
+[B][COLOR gold]v3.0.0[/COLOR][/B]
+- Menu fixes
+
 [B][COLOR gold]v1.0.6[/COLOR][/B]
 - Search queries tweaks
 - Cosmetic and other minor fixes

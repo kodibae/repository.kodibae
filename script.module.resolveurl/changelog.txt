@@ -1,15 +1,12 @@
-Version 5.1.22 (January 18, 2021)
+Version 5.1.28 (April 3, 2021)
 - Code Base Changes:
-    - None
+    - HostedMediaFile add __bool__ for python 3
 
 - Resolvers Added:
-    - jetload
+    - streamoupload
  
 - Resolvers Fixed/Updated:
-    - videossh
-    - voe.sx
-    - evoload
-    - doodstream
+    - fembed
 
 - Resolvers Removed
     - None

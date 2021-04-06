@@ -1,3 +1,41 @@
+Version 6.0.01 (April 6, 2021)
+- Code Base Changes:
+    - HostedMediaFile add __bool__ for python 3
+- Resolvers Added:
+    - none
+- Resolvers Fixed/Updated:
+    - cocoscope
+    - fembed
+    - lbry
+- Resolvers Removed
+    - none
+- Languages Added/Updated
+    - none
+
+Version 6.0.00 (March 25, 2021)
+- Code Base Changes:
+    - none
+- Resolvers Added:
+    - cocoscope
+    - lbry
+    - megaupnet
+    - streamoupload
+    - vidmojo
+- Resolvers Fixed/Updated:
+    - debrid_link
+    - evoload
+    - fembed
+    - gofile
+    - ninjastream
+    - streamz
+    - tvlogy
+    - voesx
+    - youtube
+- Resolvers Removed
+    - none
+- Languages Added/Updated
+    - none
+
 Version 5.1.22 (January 21, 2021)
 - Code Base Changes:
     - recaptcha fix
